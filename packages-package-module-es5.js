@@ -767,7 +767,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-package-list-container"]],
       decls: 8,
       vars: 6,
-      consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/ngx-store/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick", "githubClick", "homepageClick"]],
+      consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/angular-packages/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick", "githubClick", "homepageClick"]],
       template: function PackageListContainerComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "ngx-loading", 0);
@@ -824,7 +824,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
           selector: 'app-package-list-container',
-          template: "\n    <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n    <div class=\"home-container\">\n\n      <a href=\"https://github.com/d3v0ps/ngx-store/issues\" target=\"blank\" style=\"text-decoration: none; color: #69511e !important;\">\n        <mdc-card class=\"demo-card\" style=\"margin-bottom: 20px; background: #EAB543;\" outlined>\n          <mdc-ripple class=\"demo-card-article\">\n            Send me more packages\n          </mdc-ripple>\n        </mdc-card>\n      </a>\n\n      <app-package-list [pkgs]=\"pkgs$ | async\"\n        (pkgClick)=\"onPkgClick($event)\"\n        (githubClick)=\"onGithubClick($event)\"\n        (homepageClick)=\"onHomepageClick($event)\">\n      </app-package-list>\n    </div>\n  "
+          template: "\n    <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n    <div class=\"home-container\">\n\n      <a href=\"https://github.com/d3v0ps/angular-packages/issues\" target=\"blank\" style=\"text-decoration: none; color: #69511e !important;\">\n        <mdc-card class=\"demo-card\" style=\"margin-bottom: 20px; background: #EAB543;\" outlined>\n          <mdc-ripple class=\"demo-card-article\">\n            Send me more packages\n          </mdc-ripple>\n        </mdc-card>\n      </a>\n\n      <app-package-list [pkgs]=\"pkgs$ | async\"\n        (pkgClick)=\"onPkgClick($event)\"\n        (githubClick)=\"onGithubClick($event)\"\n        (homepageClick)=\"onHomepageClick($event)\">\n      </app-package-list>\n    </div>\n  "
         }]
       }], function () {
         return [{

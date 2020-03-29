@@ -349,7 +349,7 @@ class PackageListContainerComponent {
     }
 }
 PackageListContainerComponent.ɵfac = function PackageListContainerComponent_Factory(t) { return new (t || PackageListContainerComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_package_service__WEBPACK_IMPORTED_MODULE_3__["PackageService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"])); };
-PackageListContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PackageListContainerComponent, selectors: [["app-package-list-container"]], decls: 8, vars: 6, consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/ngx-store/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick", "githubClick", "homepageClick"]], template: function PackageListContainerComponent_Template(rf, ctx) { if (rf & 1) {
+PackageListContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PackageListContainerComponent, selectors: [["app-package-list-container"]], decls: 8, vars: 6, consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/angular-packages/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick", "githubClick", "homepageClick"]], template: function PackageListContainerComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "ngx-loading", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -377,7 +377,7 @@ PackageListContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__
     <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
     <div class="home-container">
 
-      <a href="https://github.com/d3v0ps/ngx-store/issues" target="blank" style="text-decoration: none; color: #69511e !important;">
+      <a href="https://github.com/d3v0ps/angular-packages/issues" target="blank" style="text-decoration: none; color: #69511e !important;">
         <mdc-card class="demo-card" style="margin-bottom: 20px; background: #EAB543;" outlined>
           <mdc-ripple class="demo-card-article">
             Send me more packages
