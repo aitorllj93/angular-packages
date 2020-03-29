@@ -87,7 +87,7 @@ __webpack_require__.r(__webpack_exports__);
 const _c0 = function () { return ["home"]; };
 class AppComponent {
     constructor() {
-        this.title = 'ngx-store';
+        this.title = 'Angular Packages';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
@@ -321,7 +321,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/work/ngx-store/ngx-store/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/runner/work/angular-packages/angular-packages/src/main.ts */"./src/main.ts");
 
 
 /***/ })

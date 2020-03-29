@@ -161,7 +161,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'ngx-store';
+      this.title = 'Angular Packages';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
@@ -535,7 +535,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /home/runner/work/ngx-store/ngx-store/src/main.ts */
+    /*! /home/runner/work/angular-packages/angular-packages/src/main.ts */
     "./src/main.ts");
     /***/
   }
