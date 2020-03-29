@@ -5,7 +5,7 @@
     "owner": "ng-select",
     "repo": "ng-select",
     "url": "https://ng-select.github.io/ng-select",
-    "category": "component",
+    "category": "Component",
     "tags": ["select", "multiselect", "autocomplete", "virtual scroll", "🎨 material", "🎨 ant"],
     "description": "Lightweight all in one UI Select, Multiselect and Autocomplete"
   },
@@ -15,7 +15,7 @@
     "owner": "swimlane",
     "repo": "ngx-datatable",
     "url": "https://swimlane.github.io/ngx-datatable",
-    "category": "component",
+    "category": "Component",
     "tags": ["datatable", "grid", "table", "🎨 material", "🎨 bootstrap"],
     "description": "Angular component for presenting large and complex data"
   },
@@ -25,7 +25,7 @@
     "owner": "swimlane",
     "repo": "ngx-charts",
     "url": "https://swimlane.github.io/ngx-charts",
-    "category": "component",
+    "category": "Component",
     "tags": ["charts", "d3", "data visualization"],
     "description": "Declarative Charting Framework for Angular"
   },
@@ -35,8 +35,48 @@
     "owner": "trimox",
     "repo": "angular-mdc-web",
     "url": "https://trimox.github.io/angular-mdc-web",
-    "category": "UI kit",
+    "category": "UI Kit",
     "tags": ["🎨 material"],
     "description": "Angular wrapper for Material Design (Web) Components"
+  },
+  {
+    "name": "angular-material",
+    "npm": "@angular/material",
+    "owner": "angular",
+    "repo": "components",
+    "url": "https://material.angular.io/",
+    "category": "UI Kit",
+    "tags": ["🎨 material", "official"],
+    "description": "Material Design components for Angular"
+  },
+  {
+    "name": "angular-cdk",
+    "npm": "@angular/cdk",
+    "owner": "angular",
+    "repo": "components",
+    "url": "https://material.angular.io/cdk/categories",
+    "category": "UI Kit",
+    "tags": ["official", "layout"],
+    "description": "Library that helps you author custom UI components with common interaction patterns"
+  },
+  {
+    "name": "angular-flex-layout",
+    "npm": "@angular/flex-layout",
+    "owner": "angular",
+    "repo": "flex-layout",
+    "url": "https://github.com/angular/flex-layout",
+    "category": "Component",
+    "tags": ["official", "layout", "flex"],
+    "description": "Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API"
+  },
+  {
+    "name": "ngx-swiper-wrapper",
+    "npm": "ngx-swiper-wrapper",
+    "owner": "zefoy",
+    "repo": "ngx-swiper-wrapper",
+    "url": "https://github.com/zefoy/ngx-swiper-wrapper#readme",
+    "category": "Component",
+    "tags": ["swiper", "slides", "carousel"],
+    "description": "Angular wrapper library for Swiper"
   }
 ]

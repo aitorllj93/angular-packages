@@ -194,9 +194,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
 
         if (rf & 2) {
-          var _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
+          var _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("scrollTarget", _r13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("scrollTarget", _r23);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
@@ -399,9 +399,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var ngx_loading__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _angular_mdc_web_textfield__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @angular-mdc/web/textfield */
+    "./node_modules/@angular-mdc/web/__ivy_ngcc__/esm2015/textfield.js");
+    /* harmony import */
+
+
+    var ngx_loading__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ngx-loading */
     "./node_modules/ngx-loading/__ivy_ngcc__/fesm2015/ngx-loading.js");
+    /* harmony import */
+
+
+    var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! @ng-select/ng-select */
+    "./node_modules/@ng-select/ng-select/__ivy_ngcc__/fesm2015/ng-select-ng-select.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @angular/forms */
+    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! @angular/flex-layout */
+    "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/flex-layout.js");
 
     var UIModule = function UIModule() {
       _classCallCheck(this, UIModule);
@@ -414,12 +438,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       factory: function UIModule_Factory(t) {
         return new (t || UIModule)();
       },
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_9__["NgxLoadingModule"]]
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_13__["FlexLayoutModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], _angular_mdc_web_textfield__WEBPACK_IMPORTED_MODULE_9__["MdcTextFieldModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_10__["NgxLoadingModule"], _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_11__["NgSelectModule"]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](UIModule, {
-        exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_9__["NgxLoadingModule"]]
+        exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_13__["FlexLayoutModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], _angular_mdc_web_textfield__WEBPACK_IMPORTED_MODULE_9__["MdcTextFieldModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_10__["NgxLoadingModule"], _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_11__["NgSelectModule"]]
       });
     })();
     /*@__PURE__*/
@@ -429,7 +453,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](UIModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-          exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_9__["NgxLoadingModule"]]
+          exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_13__["FlexLayoutModule"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_2__["MdcRippleModule"], _angular_mdc_web_button__WEBPACK_IMPORTED_MODULE_3__["MdcButtonModule"], _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_4__["MdcIconModule"], _angular_mdc_web_top_app_bar__WEBPACK_IMPORTED_MODULE_7__["MdcTopAppBarModule"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_5__["MdcCardModule"], _angular_mdc_web_list__WEBPACK_IMPORTED_MODULE_6__["MdcListModule"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_8__["MdcChipsModule"], _angular_mdc_web_textfield__WEBPACK_IMPORTED_MODULE_9__["MdcTextFieldModule"], ngx_loading__WEBPACK_IMPORTED_MODULE_10__["NgxLoadingModule"], _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_11__["NgSelectModule"]]
         }]
       }], null, null);
     })();
