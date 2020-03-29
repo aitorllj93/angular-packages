@@ -396,7 +396,6 @@ class PackageListContainerComponent {
         this.service.fetchAll()
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(result => this.pkgs$.next(result)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(() => this.service.fetchTags()), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(tags => {
             this.tags$.next(tags);
-            this.filterTags = tags;
             this.onFilterChange();
         }))
             .subscribe(() => this.loading = false);
@@ -414,7 +413,7 @@ class PackageListContainerComponent {
     }
     onFilterChange() {
         this.filteredPkgs$.next(this.pkgs$.value.filter(pkg => {
-            const matchesTags = pkg.tags.some(tag => this.filterTags.includes(tag));
+            const matchesTags = this.filterTags.length <= 0 || pkg.tags.some(tag => this.filterTags.includes(tag));
             const matchesText = pkg.name.toLowerCase().includes(this.filterText.toLowerCase()) ||
                 pkg.description.toLowerCase().includes(this.filterText.toLowerCase());
             return matchesTags && matchesText;

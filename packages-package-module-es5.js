@@ -875,8 +875,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(function (tags) {
             _this2.tags$.next(tags);
 
-            _this2.filterTags = tags;
-
             _this2.onFilterChange();
           })).subscribe(function () {
             return _this2.loading = false;
@@ -909,7 +907,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _this3 = this;
 
           this.filteredPkgs$.next(this.pkgs$.value.filter(function (pkg) {
-            var matchesTags = pkg.tags.some(function (tag) {
+            var matchesTags = _this3.filterTags.length <= 0 || pkg.tags.some(function (tag) {
               return _this3.filterTags.includes(tag);
             });
             var matchesText = pkg.name.toLowerCase().includes(_this3.filterText.toLowerCase()) || pkg.description.toLowerCase().includes(_this3.filterText.toLowerCase());
