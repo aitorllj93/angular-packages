@@ -78,5 +78,25 @@
     "category": "Component",
     "tags": ["swiper", "slides", "carousel"],
     "description": "Angular wrapper library for Swiper"
+  },
+  {
+    "name": "ngrx-store",
+    "npm": "@ngrx/store",
+    "owner": "ngrx",
+    "repo": "platform",
+    "url": "https://ngrx.io/guide/store",
+    "category": "Service Provider",
+    "tags": ["store", "rxjs"],
+    "description": "Store is RxJS powered state management for Angular applications, inspired by Redux. Store is a controlled state container designed to help write performant, consistent applications on top of Angular."
+  },
+  {
+    "name": "ngxs-store",
+    "npm": "@ngxs/store",
+    "owner": "ngxs",
+    "repo": "store",
+    "url": "https://www.ngxs.io/",
+    "category": "Service Provider",
+    "tags": ["store", "rxjs"],
+    "description": "NGXS is a state management pattern + library for Angular"
   }
 ]
