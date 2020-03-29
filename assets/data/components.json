@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ng-select",
+    "npm": "@ng-select/ng-select",
+    "owner": "ng-select",
+    "repo": "ng-select",
+    "url": "https://ng-select.github.io/ng-select",
+    "category": "component",
+    "tags": ["select", "multiselect", "autocomplete", "virtual scroll", "🎨 material", "🎨 ant"],
+    "description": "Lightweight all in one UI Select, Multiselect and Autocomplete"
+  },
+  {
+    "name": "ngx-datatable",
+    "npm": "@swimlane/ngx-datatable",
+    "owner": "swimlane",
+    "repo": "ngx-datatable",
+    "url": "https://swimlane.github.io/ngx-datatable",
+    "category": "component",
+    "tags": ["datatable", "grid", "table", "🎨 material", "🎨 bootstrap"],
+    "description": "Angular component for presenting large and complex data"
+  },
+  {
+    "name": "ngx-charts",
+    "npm": "@swimlane/ngx-charts",
+    "owner": "swimlane",
+    "repo": "ngx-charts",
+    "url": "https://swimlane.github.io/ngx-charts",
+    "category": "component",
+    "tags": ["charts", "d3", "data visualization"],
+    "description": "Declarative Charting Framework for Angular"
+  },
+  {
+    "name": "angular-mdc",
+    "npm": "@angular-mdc/web",
+    "owner": "trimox",
+    "repo": "angular-mdc-web",
+    "url": "https://trimox.github.io/angular-mdc-web",
+    "category": "UI kit",
+    "tags": ["🎨 material"],
+    "description": "Angular wrapper for Material Design (Web) Components"
+  }
+]
