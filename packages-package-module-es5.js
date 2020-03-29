@@ -75,15 +75,45 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _package_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./package-header.component */
-    "./src/app/packages/package-header.component.ts");
+    var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    var _package_header_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./package-header.component */
+    "./src/app/packages/package-header.component.ts");
+
+    function PackageDetailContainerComponent_app_package_header_4_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-package-header", 6);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("githubClick", function PackageDetailContainerComponent_app_package_header_4_Template_app_package_header_githubClick_0_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
+
+          var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r10.onGithubClick($event);
+        })("homepageClick", function PackageDetailContainerComponent_app_package_header_4_Template_app_package_header_homepageClick_0_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
+
+          var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r12.onHomepageClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var pkg_r9 = ctx.ngIf;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pkg", pkg_r9);
+      }
+    }
 
     var _c0 = function _c0() {
       return {
@@ -120,6 +150,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return _this.loading = false;
           });
         }
+      }, {
+        key: "onGithubClick",
+        value: function onGithubClick(event) {
+          var pkg = this.pkg$.value;
+          event.stopPropagation();
+          window.open("https://github.com/".concat(pkg.owner, "/").concat(pkg.repo), '_blank');
+        }
+      }, {
+        key: "onHomepageClick",
+        value: function onHomepageClick(event) {
+          var pkg = this.pkg$.value;
+          event.stopPropagation();
+          window.open(pkg.url, '_blank');
+        }
       }]);
 
       return PackageDetailContainerComponent;
@@ -134,7 +178,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-package-detail-container"]],
       decls: 8,
       vars: 9,
-      consts: [[1, "home-container"], [3, "show", "config"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "40px"], [1, "demo-card-article"], [3, "pkg"], [1, "markdown-body", 3, "innerHtml"]],
+      consts: [[1, "home-container"], [3, "show", "config"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "40px"], [1, "demo-card-article"], [3, "pkg", "githubClick", "homepageClick", 4, "ngIf"], [1, "markdown-body", 3, "innerHtml"], [3, "pkg", "githubClick", "homepageClick"]],
       template: function PackageDetailContainerComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -145,7 +189,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mdc-ripple", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-package-header", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PackageDetailContainerComponent_app_package_header_4_Template, 1, 1, "app-package-header", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](5, "async");
 
@@ -167,15 +211,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pkg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 4, ctx.pkg$));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 4, ctx.pkg$));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHtml", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](7, 6, ctx.readme$), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
         }
       },
-      directives: [ngx_loading__WEBPACK_IMPORTED_MODULE_5__["NgxLoadingComponent"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_6__["MdcCard"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_7__["MdcRippleDirective"], _package_header_component__WEBPACK_IMPORTED_MODULE_8__["PackageHeaderComponent"]],
-      pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_9__["AsyncPipe"]],
+      directives: [ngx_loading__WEBPACK_IMPORTED_MODULE_5__["NgxLoadingComponent"], _angular_mdc_web_card__WEBPACK_IMPORTED_MODULE_6__["MdcCard"], _angular_mdc_web_ripple__WEBPACK_IMPORTED_MODULE_7__["MdcRippleDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["NgIf"], _package_header_component__WEBPACK_IMPORTED_MODULE_9__["PackageHeaderComponent"]],
+      pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__["AsyncPipe"]],
       encapsulation: 2
     });
     /*@__PURE__*/
@@ -185,7 +229,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
           selector: 'app-package-detail-container',
-          template: "\n    <div class=\"home-container\">\n      <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n      <mdc-card class=\"demo-card\" style=\"margin-bottom: 40px;\" outlined>\n        <mdc-ripple class=\"demo-card-article\">\n          <app-package-header [pkg]=\"pkg$ | async\"></app-package-header>\n        </mdc-ripple>\n      </mdc-card>\n      <div class=\"markdown-body\" [innerHtml]=\"readme$ | async\"></div>\n    </div>\n  "
+          template: "\n    <div class=\"home-container\">\n      <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n      <mdc-card class=\"demo-card\" style=\"margin-bottom: 40px;\" outlined>\n        <mdc-ripple class=\"demo-card-article\">\n          <app-package-header *ngIf=\"pkg$ | async as pkg\" [pkg]=\"pkg\"\n            (githubClick)=\"onGithubClick($event)\"\n            (homepageClick)=\"onHomepageClick($event)\"></app-package-header>\n        </mdc-ripple>\n      </mdc-card>\n      <div class=\"markdown-body\" [innerHtml]=\"readme$ | async\"></div>\n    </div>\n  "
         }]
       }], function () {
         return [{
@@ -227,17 +271,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular-mdc/web/icon */
+    "./node_modules/@angular-mdc/web/__ivy_ngcc__/esm2015/icon.js");
+    /* harmony import */
+
+
+    var _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular-mdc/web/chips */
     "./node_modules/@angular-mdc/web/__ivy_ngcc__/esm2015/chips.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
-    function PackageHeaderComponent_mdc_chip_5_Template(rf, ctx) {
+    function PackageHeaderComponent_mdc_chip_7_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mdc-chip");
 
@@ -262,6 +312,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var PackageHeaderComponent = /*#__PURE__*/function () {
       function PackageHeaderComponent() {
         _classCallCheck(this, PackageHeaderComponent);
+
+        this.githubClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.homepageClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
       }
 
       _createClass(PackageHeaderComponent, [{
@@ -282,26 +335,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       inputs: {
         pkg: "pkg"
       },
-      decls: 6,
+      outputs: {
+        githubClick: "githubClick",
+        homepageClick: "homepageClick"
+      },
+      decls: 8,
       vars: 3,
-      consts: [["mdcHeadline5", "", 1, "demo-card-article__title"], ["mdcBody2", "", 1, "demo-card-article__snippet"], [4, "ngFor", "ngForOf"]],
+      consts: [["mdcHeadline5", "", 1, "demo-card-article__title"], ["fontSet", "mdi", "fontIcon", "mdi-github", 2, "cursor", "pointer", 3, "click"], ["fontSet", "mdi", "fontIcon", "mdi-home", 2, "cursor", "pointer", 3, "click"], ["mdcBody2", "", 1, "demo-card-article__snippet"], [4, "ngFor", "ngForOf"]],
       template: function PackageHeaderComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mdc-icon", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PackageHeaderComponent_Template_mdc_icon_click_2_listener($event) {
+            return ctx.githubClick.emit($event);
+          });
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mdc-icon", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PackageHeaderComponent_Template_mdc_icon_click_3_listener($event) {
+            return ctx.homepageClick.emit($event);
+          });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mdc-chip-set");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, PackageHeaderComponent_mdc_chip_5_Template, 3, 1, "mdc-chip", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mdc-chip-set");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, PackageHeaderComponent_mdc_chip_7_Template, 3, 1, "mdc-chip", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
@@ -309,9 +382,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.pkg.name);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.pkg.name, " ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.pkg.description, " ");
 
@@ -320,7 +393,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.pkg.tags);
         }
       },
-      directives: [_angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_1__["MdcChipSet"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_1__["MdcChip"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_1__["MdcChipText"]],
+      directives: [_angular_mdc_web_icon__WEBPACK_IMPORTED_MODULE_1__["MdcIcon"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_2__["MdcChipSet"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_2__["MdcChip"], _angular_mdc_web_chips__WEBPACK_IMPORTED_MODULE_2__["MdcChipText"]],
       encapsulation: 2
     });
     /*@__PURE__*/
@@ -330,11 +403,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
           selector: 'app-package-header',
-          template: "\n    <h2 class=\"demo-card-article__title\" mdcHeadline5>{{ pkg.name }}</h2>\n    <p class=\"demo-card-article__snippet\" mdcBody2>\n      {{ pkg.description }}\n    </p>\n    <mdc-chip-set>\n      <mdc-chip *ngFor=\"let tag of pkg.tags\">\n        <mdc-chip-text>{{ tag }}</mdc-chip-text>\n      </mdc-chip>\n    </mdc-chip-set>\n  "
+          template: "\n    <h2 class=\"demo-card-article__title\" mdcHeadline5>\n      {{ pkg.name }}\n      <mdc-icon fontSet=\"mdi\" fontIcon=\"mdi-github\" style=\"cursor:pointer\"\n        (click)=\"githubClick.emit($event)\"></mdc-icon>\n      <mdc-icon fontSet=\"mdi\" fontIcon=\"mdi-home\" style=\"cursor:pointer\"\n        (click)=\"homepageClick.emit($event)\"></mdc-icon>\n    </h2>\n    <p class=\"demo-card-article__snippet\" mdcBody2>\n      {{ pkg.description }}\n    </p>\n    <mdc-chip-set>\n      <mdc-chip *ngFor=\"let tag of pkg.tags\">\n        <mdc-chip-text>{{ tag }}</mdc-chip-text>\n      </mdc-chip>\n    </mdc-chip-set>\n  "
         }]
       }], function () {
         return [];
       }, {
+        githubClick: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }],
+        homepageClick: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }],
         pkg: [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }]
@@ -418,7 +497,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return ctx_r4.pkgClick.emit(pkg_r3);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-package-header", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "app-package-header", 3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("githubClick", function PackageListComponent_ng_container_1_Template_app_package_header_githubClick_2_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5);
+
+          var pkg_r3 = ctx.$implicit;
+
+          var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r6.githubClick.emit({
+            event: $event,
+            pkg: pkg_r3
+          });
+        })("homepageClick", function PackageListComponent_ng_container_1_Template_app_package_header_homepageClick_2_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5);
+
+          var pkg_r3 = ctx.$implicit;
+
+          var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r7.homepageClick.emit({
+            event: $event,
+            pkg: pkg_r3
+          });
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -441,6 +546,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, PackageListComponent);
 
         this.pkgClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.githubClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.homepageClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
       }
 
       _createClass(PackageListComponent, [{
@@ -462,11 +569,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         pkgs: "pkgs"
       },
       outputs: {
-        pkgClick: "pkgClick"
+        pkgClick: "pkgClick",
+        githubClick: "githubClick",
+        homepageClick: "homepageClick"
       },
       decls: 2,
       vars: 1,
-      consts: [["outlined", "", 1, "demo-card"], [4, "ngFor", "ngForOf"], [1, "demo-card-article", 3, "click"], [3, "pkg"]],
+      consts: [["outlined", "", 1, "demo-card"], [4, "ngFor", "ngForOf"], [1, "demo-card-article", 3, "click"], [3, "pkg", "githubClick", "homepageClick"]],
       template: function PackageListComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mdc-card", 0);
@@ -492,7 +601,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
           selector: 'app-package-list',
-          template: "\n    <mdc-card class=\"demo-card\" outlined>\n      <ng-container *ngFor=\"let pkg of pkgs\">\n        <mdc-ripple class=\"demo-card-article\"\n          (click)=\"pkgClick.emit(pkg)\">\n          <app-package-header [pkg]=\"pkg\"></app-package-header>\n        </mdc-ripple>\n        <mdc-list-divider></mdc-list-divider>\n      </ng-container>\n    </mdc-card>\n  "
+          template: "\n    <mdc-card class=\"demo-card\" outlined>\n      <ng-container *ngFor=\"let pkg of pkgs\">\n        <mdc-ripple class=\"demo-card-article\"\n          (click)=\"pkgClick.emit(pkg)\">\n          <app-package-header [pkg]=\"pkg\"\n            (githubClick)=\"githubClick.emit({ event: $event, pkg: pkg })\"\n            (homepageClick)=\"homepageClick.emit({ event: $event, pkg: pkg })\">\n          </app-package-header>\n        </mdc-ripple>\n        <mdc-list-divider></mdc-list-divider>\n      </ng-container>\n    </mdc-card>\n  "
         }]
       }], function () {
         return [];
@@ -501,6 +610,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }],
         pkgClick: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }],
+        githubClick: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }],
+        homepageClick: [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
         }]
       });
@@ -622,6 +737,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function onPkgClick(pkg) {
           this.router.navigate(['home', pkg.owner, pkg.name]);
         }
+      }, {
+        key: "onGithubClick",
+        value: function onGithubClick(_ref) {
+          var event = _ref.event,
+              pkg = _ref.pkg;
+          event.stopPropagation();
+          window.open("https://github.com/".concat(pkg.owner, "/").concat(pkg.repo), '_blank');
+        }
+      }, {
+        key: "onHomepageClick",
+        value: function onHomepageClick(_ref2) {
+          var event = _ref2.event,
+              pkg = _ref2.pkg;
+          event.stopPropagation();
+          window.open(pkg.url, '_blank');
+        }
       }]);
 
       return PackageListContainerComponent;
@@ -636,7 +767,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-package-list-container"]],
       decls: 8,
       vars: 6,
-      consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/ngx-store/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick"]],
+      consts: [[3, "show", "config"], [1, "home-container"], ["href", "https://github.com/d3v0ps/ngx-store/issues", "target", "blank", 2, "text-decoration", "none", "color", "#69511e !important"], ["outlined", "", 1, "demo-card", 2, "margin-bottom", "20px", "background", "#EAB543"], [1, "demo-card-article"], [3, "pkgs", "pkgClick", "githubClick", "homepageClick"]],
       template: function PackageListContainerComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "ngx-loading", 0);
@@ -661,6 +792,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("pkgClick", function PackageListContainerComponent_Template_app_package_list_pkgClick_6_listener($event) {
             return ctx.onPkgClick($event);
+          })("githubClick", function PackageListContainerComponent_Template_app_package_list_githubClick_6_listener($event) {
+            return ctx.onGithubClick($event);
+          })("homepageClick", function PackageListContainerComponent_Template_app_package_list_homepageClick_6_listener($event) {
+            return ctx.onHomepageClick($event);
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "async");
@@ -689,7 +824,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
           selector: 'app-package-list-container',
-          template: "\n    <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n    <div class=\"home-container\">\n\n      <a href=\"https://github.com/d3v0ps/ngx-store/issues\" target=\"blank\" style=\"text-decoration: none; color: #69511e !important;\">\n        <mdc-card class=\"demo-card\" style=\"margin-bottom: 20px; background: #EAB543;\" outlined>\n          <mdc-ripple class=\"demo-card-article\">\n            Send me more packages\n          </mdc-ripple>\n        </mdc-card>\n      </a>\n\n      <app-package-list [pkgs]=\"pkgs$ | async\"\n        (pkgClick)=\"onPkgClick($event)\">\n      </app-package-list>\n    </div>\n  "
+          template: "\n    <ngx-loading [show]=\"loading\" [config]=\"{ backdropBorderRadius: '3px' }\"></ngx-loading>\n    <div class=\"home-container\">\n\n      <a href=\"https://github.com/d3v0ps/ngx-store/issues\" target=\"blank\" style=\"text-decoration: none; color: #69511e !important;\">\n        <mdc-card class=\"demo-card\" style=\"margin-bottom: 20px; background: #EAB543;\" outlined>\n          <mdc-ripple class=\"demo-card-article\">\n            Send me more packages\n          </mdc-ripple>\n        </mdc-card>\n      </a>\n\n      <app-package-list [pkgs]=\"pkgs$ | async\"\n        (pkgClick)=\"onPkgClick($event)\"\n        (githubClick)=\"onGithubClick($event)\"\n        (homepageClick)=\"onHomepageClick($event)\">\n      </app-package-list>\n    </div>\n  "
         }]
       }], function () {
         return [{
