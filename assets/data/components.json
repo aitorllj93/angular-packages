@@ -98,5 +98,85 @@
     "category": "Service Provider",
     "tags": ["store", "rxjs"],
     "description": "NGXS is a state management pattern + library for Angular"
+  },
+  {
+    "name": "ng-sidebar",
+    "npm": "ng-sidebar",
+    "owner": "arkon",
+    "repo": "ng-sidebar",
+    "url": "https://github.com/arkon/ng-sidebar#readme",
+    "category": "Component",
+    "tags": ["sidebar", "drawer"],
+    "description": "An Angular sidebar component."
+  },
+  {
+    "name": "angular-split",
+    "npm": "angular-split",
+    "owner": "bertrandg",
+    "repo": "angular-split",
+    "url": "https://bertrandg.github.io/angular-split/#/",
+    "category": "Component",
+    "tags": ["split", "resize"],
+    "description": "Angular UI library to split views and allow dragging to resize areas using CSS flexbox layout."
+  },
+  {
+    "name": "ngx-bootstrap",
+    "npm": "ngx-bootstrap",
+    "owner": "valor-software",
+    "repo": "ngx-bootstrap",
+    "url": "https://valor-software.com/ngx-bootstrap/#/",
+    "category": "UI Kit",
+    "tags": ["🎨 bootstrap"],
+    "description": "Bootstrap components, powered by Angular"
+  },
+  {
+    "name": "ng-bootstrap",
+    "npm": "ng-bootstrap",
+    "owner": "ng-bootstrap",
+    "repo": "ng-bootstrap",
+    "url": "https://ng-bootstrap.github.io/",
+    "category": "UI Kit",
+    "tags": ["🎨 bootstrap"],
+    "description": "Angular widgets built from the ground up using only Bootstrap 4 CSS with APIs designed for the Angular ecosystem. No dependencies on 3rd party JavaScript."
+  },
+  {
+    "name": "ng-zorro-antd",
+    "npm": "ng-zorro-antd",
+    "owner": "ng-zorro",
+    "repo": "ng-zorro-antd",
+    "url": "https://ng.ant.design/",
+    "category": "UI Kit",
+    "tags": ["🎨 ant"],
+    "description": "An enterprise-class UI components based on Ant Design and Angular."
+  },
+  {
+    "name": "nebular",
+    "npm": "@nebular/theme",
+    "owner": "akveo",
+    "repo": "nebular",
+    "url": "https://akveo.github.io/nebular/",
+    "category": "UI Kit",
+    "tags": ["🎨 eva"],
+    "description": "Customizable Angular UI Library based on Eva Design System"
+  },
+  {
+    "name": "apollo-angular",
+    "npm": "apollo-angular",
+    "owner": "apollographql",
+    "repo": "apollo-angular",
+    "url": "https://www.apollographql.com/docs/angular/",
+    "category": "Service Provider",
+    "tags": ["graphql"],
+    "description": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server"
+  },
+  {
+    "name": "ngx-formly",
+    "npm": "@ngx-formly/core",
+    "owner": "ngx-formly",
+    "repo": "ngx-formly",
+    "url": "https://formly.dev/",
+    "category": "Component",
+    "tags": ["dynamic form manager", "🎨 material", "🎨 bootstrap", "🎨 ant"],
+    "description": "Formly is a dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms."
   }
 ]
