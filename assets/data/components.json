@@ -30,6 +30,26 @@
     "description": "Declarative Charting Framework for Angular"
   },
   {
+    "name": "ngx-codex",
+    "npm": "ngx-codex",
+    "owner": "d3v0ps",
+    "repo": "ngx-codex",
+    "url": "https://d3v0ps.github.io/ngx-codex",
+    "category": "Component",
+    "tags": ["editor.js", "block-based editor", "forms"],
+    "description": "Angular editor.js component with custom components support."
+  },
+  {
+    "name": "ngx-bpmn-modeler",
+    "npm": "ngx-bpmn-modeler",
+    "owner": "d3v0ps",
+    "repo": "ngx-bpmn-modeler",
+    "url": "https://d3v0ps.github.io/ngx-bpmn-modeler",
+    "category": "Component",
+    "tags": ["bpmn-js", "diagrams", "forms"],
+    "description": "Angular editor.js component with custom components support."
+  },
+  {
     "name": "angular-mdc",
     "npm": "@angular-mdc/web",
     "owner": "trimox",
@@ -176,7 +196,7 @@
     "repo": "ngx-formly",
     "url": "https://formly.dev/",
     "category": "Component",
-    "tags": ["dynamic form manager", "🎨 material", "🎨 bootstrap", "🎨 ant"],
+    "tags": ["dynamic form manager", "forms", "🎨 material", "🎨 bootstrap", "🎨 ant"],
     "description": "Formly is a dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms."
   }
 ]
