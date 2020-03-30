@@ -200,13 +200,143 @@
     "description": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server"
   },
   {
-    "name": "ngx-formly",
-    "npm": "@ngx-formly/core",
-    "owner": "ngx-formly",
-    "repo": "ngx-formly",
-    "url": "https://formly.dev/",
+    "name": "rxweb",
+    "npm": "@rxweb/reactive-form-validators",
+    "owner": "rxweb",
+    "repo": "rxweb",
+    "url": "https://docs.rxweb.io/",
+    "category": "Service Provider",
+    "tags": ["forms", "validation"],
+    "description": "The most efficient validation framework for angular applications"
+  },
+  {
+    "name": "ngx-meta",
+    "npm": "@ngx-meta/core",
+    "owner": "fulls1z3",
+    "repo": "ngx-meta",
+    "url": "https://github.com/fulls1z3/ngx-meta",
+    "category": "Service Provider",
+    "tags": ["meta-tags"],
+    "description": "Dynamic page title & meta tags utility for Angular (w/server-side rendering)"
+  },
+  {
+    "name": "angular-epic-spinners",
+    "npm": "angular-epic-spinners",
+    "owner": "HackAfro",
+    "repo": "angular-epic-spinners",
+    "url": "https://hackafro.github.io/angular-epic-spinners",
     "category": "Component",
-    "tags": ["dynamic form manager", "forms", "🎨 material", "🎨 bootstrap", "🎨 ant"],
-    "description": "Formly is a dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms."
+    "tags": ["spinner", "loading"],
+    "description": "Reusable angular components for epic-spinners"
+  },
+  {
+    "name": "ngx-deploy-npm",
+    "npm": "ngx-deploy-npm",
+    "owner": "bikecoders",
+    "repo": "ngx-deploy-npm",
+    "url": "https://github.com/bikecoders/ngx-deploy-npm",
+    "category": "Tool",
+    "tags": ["deployment", "npm"],
+    "description": "Deploy your Angular Library to NPM directly from the Angular CLI!"
+  },
+  {
+    "name": "angular-cli-ghpages",
+    "npm": "angular-cli-ghpages",
+    "owner": "angular-schule",
+    "repo": "angular-cli-ghpages",
+    "url": "https://github.com/angular-schule/angular-cli-ghpages",
+    "category": "Tool",
+    "tags": ["deployment", "github"],
+    "description": "Deploy your Angular app to GitHub pages directly from the Angular CLI!"
+  },
+  {
+    "name": "scully",
+    "npm": "@scullyio/scully",
+    "owner": "scullyio",
+    "repo": "scully",
+    "url": "https://github.com/scullyio/scully",
+    "category": "Tool",
+    "tags": ["static site"],
+    "description": "The best way to build the fastest Angular apps. Scully is a static site generator for Angular projects looking to embrace the JAMStack."
+  },
+  {
+    "name": "ng-busy",
+    "npm": "ng-busy",
+    "owner": "victos",
+    "repo": "angular-opensource",
+    "url": "https://github.com/victos/angular-opensource/tree/master/projects/ng-busy",
+    "category": "Component",
+    "tags": ["spinner", "loading"],
+    "description": "NgBusy can show busy/loading indicators on any promise, or on any Observable's subscription."
+  },
+  {
+    "name": "transloco",
+    "npm": "@ngneat/transloco",
+    "owner": "ngneat",
+    "repo": "transloco",
+    "url": "https://netbasal.gitbook.io/transloco/",
+    "category": "Service Provider",
+    "tags": ["i18n", "translation"],
+    "description": "The internationalization (i18n) library for Angular"
+  },
+  {
+    "name": "angular-ssr",
+    "npm": "angular-ssr",
+    "owner": "rangle",
+    "repo": "angular-ssr",
+    "url": "https://github.com/rangle/angular-ssr",
+    "category": "Tool",
+    "tags": ["server-side rendering"],
+    "description": "Angular 4+ server-side rendering solution compatible with @angular/material, jQuery, and other libraries that touch the DOM (as well as providing a rich feature set!)"
+  },
+  {
+    "name": "angular-commerce",
+    "npm": "angular-commerce",
+    "owner": "NodeArt",
+    "repo": "angular-commerce",
+    "url": "https://angularcommerce.io/#for-developers",
+    "category": "UI Kit",
+    "tags": ["commerce"],
+    "description": "Angular components for scaffolding online store"
+  },
+  {
+    "name": "codelyzer",
+    "npm": "codelyzer",
+    "owner": "mgechev",
+    "repo": "codelyzer",
+    "url": "http://codelyzer.com",
+    "category": "Tool",
+    "tags": ["linting"],
+    "description": "Static analysis for Angular projects."
+  },
+  {
+    "name": "storybook",
+    "npm": "@storybook/cli",
+    "owner": "storybookjs",
+    "repo": "storybook",
+    "url": "https://storybook.js.org/docs/guides/guide-angular/",
+    "category": "Tool",
+    "tags": ["devTool"],
+    "description": "Storybook is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components."
+  },
+  {
+    "name": "ngx-resource",
+    "npm": "@ngx-resource/core",
+    "owner": "troyanskiy",
+    "repo": "ngx-resource",
+    "url": "http://troyanskiy.github.io/ngx-resource",
+    "category": "Service Provider",
+    "tags": ["http", "REST", "CRUD"],
+    "description": "Resource (REST) Client for Angular 2"
+  },
+  {
+    "name": "ngx-http-rest",
+    "npm": "ngx-http-rest",
+    "owner": "Mixalloff",
+    "repo": "ngx-http-rest",
+    "url": "https://github.com/Mixalloff/ngx-http-rest",
+    "category": "Service Provider",
+    "tags": ["http", "REST", "CRUD"],
+    "description": "This library allows to interact with rest api in your angular app"
   }
 ]
