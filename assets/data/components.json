@@ -6,7 +6,7 @@
     "repo": "ng-select",
     "url": "https://ng-select.github.io/ng-select",
     "category": "Component",
-    "tags": ["select", "multiselect", "autocomplete", "virtual scroll", "🎨 material", "🎨 ant"],
+    "tags": ["select", "multiselect", "autocomplete", "virtual scroll", "forms", "🎨 material", "🎨 ant"],
     "description": "Lightweight all in one UI Select, Multiselect and Autocomplete"
   },
   {
@@ -48,6 +48,16 @@
     "category": "Component",
     "tags": ["bpmn-js", "diagrams", "forms"],
     "description": "Angular editor.js component with custom components support."
+  },
+  {
+    "name": "ngx-chips",
+    "npm": "ngx-chips",
+    "owner": "Gbuomprisco",
+    "repo": "ngx-chips",
+    "url": "https://angular-mfppay.stackblitz.io",
+    "category": "Component",
+    "tags": ["chips", "forms", "🎨 material", "🎨 bootstrap"],
+    "description": "Tag Input component for Angular"
   },
   {
     "name": "angular-mdc",
