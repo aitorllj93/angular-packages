@@ -398,5 +398,35 @@
     "category": "Component",
     "tags": ["spinner", "loading"],
     "description": "A customisable loading spinner for Angular applications."
+  },
+  {
+    "name": "ng-keyboard-shortcuts",
+    "npm": "ng-keyboard-shortcuts",
+    "owner": "omridevk",
+    "repo": "ng-keyboard-shortcuts",
+    "url": "https://omridevk.github.io/ng-keyboard-shortcuts/",
+    "category": "Component",
+    "tags": ["keyboard", "shortcuts", "hotkeys"],
+    "description": "An Angular module that provides a declarative API using components/directive to manage Keyboard shortcuts in scalable way."
+  },
+  {
+    "name": "ngx-card",
+    "npm": "ngx-card",
+    "owner": "ihym",
+    "repo": "ngx-card",
+    "url": "https://ihym.github.io/ngx-card/",
+    "category": "Component",
+    "tags": ["payment", "card"],
+    "description": "Angular 2+ wrapper for card.js"
+  },
+  {
+    "name": "ngx-stripe",
+    "npm": "@nomadreservations/ngx-stripe",
+    "owner": "nomadreservations",
+    "repo": "ngx-stripe",
+    "url": "https://ihym.github.io/ngx-card/",
+    "category": "Component",
+    "tags": ["payment", "stripe"],
+    "description": "Angular 8.x wrapper for StripeJS"
   }
 ]
