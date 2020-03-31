@@ -30,6 +30,26 @@
     "description": "Declarative Charting Framework for Angular"
   },
   {
+    "name": "ngx-cron",
+    "npm": "@swimlane/ngx-cron",
+    "owner": "swimlane",
+    "repo": "ngx-cron",
+    "url": "https://swimlane.github.io/ngx-cron",
+    "category": "Component",
+    "tags": ["cron", "forms"],
+    "description": "User-friendly cron input..."
+  },
+  {
+    "name": "ngx-cron-editor",
+    "npm": "ngx-cron-editor",
+    "owner": "haavardj",
+    "repo": "ngx-cron-editor",
+    "url": "https://haavardj.github.io/ngx-cron-editor/",
+    "category": "Component",
+    "tags": ["cron", "forms", "🎨 material"],
+    "description": "An Angular 8 component for building cron expressions graphically. It is meant to be used in reactive forms and support Angular Material Design styling."
+  },
+  {
     "name": "ngx-codex",
     "npm": "ngx-codex",
     "owner": "d3v0ps",
