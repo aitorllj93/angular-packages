@@ -628,5 +628,15 @@
     "category": "Component",
     "tags": ["scrollbar"],
     "description": "Custom scrollbars vanilla javascript library with native scroll, done simple, lightweight, easy to use and cross-browser."
+  },
+  {
+    "name": "ngx-tooltip",
+    "npm": "@teamhive/ngx-tooltip",
+    "owner": "TeamHive",
+    "repo": "ngx-tooltip",
+    "url": "https://github.com/TeamHive/ngx-tooltip",
+    "category": "Component",
+    "tags": ["tooltip"],
+    "description": "Angular 7 library wrapper around TippyJS tooltips."
   }
 ]
