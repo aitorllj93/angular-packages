@@ -136,7 +136,7 @@
     "repo": "platform",
     "url": "https://ngrx.io/guide/store",
     "category": "Service Provider",
-    "tags": ["store", "rxjs"],
+    "tags": ["store", "state", "rxjs"],
     "description": "Store is RxJS powered state management for Angular applications, inspired by Redux. Store is a controlled state container designed to help write performant, consistent applications on top of Angular."
   },
   {
@@ -146,7 +146,7 @@
     "repo": "store",
     "url": "https://www.ngxs.io/",
     "category": "Service Provider",
-    "tags": ["store", "rxjs"],
+    "tags": ["store", "state", "rxjs"],
     "description": "NGXS is a state management pattern + library for Angular"
   },
   {
@@ -428,5 +428,35 @@
     "category": "Component",
     "tags": ["payment", "stripe"],
     "description": "Angular 8.x wrapper for StripeJS"
+  },
+  {
+    "name": "ngx-webstorage",
+    "npm": "ngx-webstorage",
+    "owner": "PillowPillow",
+    "repo": "ng2-webstorage",
+    "url": "https://github.com/PillowPillow/ng2-webstorage",
+    "category": "Service Provider",
+    "tags": ["localstorage", "sessionstorage"],
+    "description": "This library provides an easy to use service to manage the web storages (local and session) from your Angular application. It provides also two decorators to synchronize the component attributes and the web storages."
+  },
+  {
+    "name": "ui-router",
+    "npm": "@uirouter/angular",
+    "owner": "ui-router",
+    "repo": "angular",
+    "url": "https://ui-router.github.io/ng2/",
+    "category": "Service Provider",
+    "tags": ["router", "state"],
+    "description": "UI-Router provides extremely flexible, state based routing to the Angular (2+) ecosystem."
+  },
+  {
+    "name": "ngx-export-as",
+    "npm": "ngx-export-as",
+    "owner": "wnabil",
+    "repo": "ngx-export-as",
+    "url": "https://github.com/wnabil/ngx-export-as",
+    "category": "Component",
+    "tags": ["export"],
+    "description": "Typescript angular module to export Table/HTML to popular file formats"
   }
 ]
