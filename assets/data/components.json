@@ -578,5 +578,55 @@
     "category": "Tool",
     "tags": ["documentation", "coverage"],
     "description": "The missing documentation tool for your Angular, Nest & Stencil application"
+  },
+  {
+    "name": "angular-gridster2",
+    "npm": "angular-gridster2",
+    "owner": "tiberiuzuld",
+    "repo": "angular-gridster2",
+    "url": "https://tiberiuzuld.github.io/angular-gridster2/",
+    "category": "Component",
+    "tags": ["gridster", "dashboard"],
+    "description": "Angular gridster 2"
+  },
+  {
+    "name": "ng-dynamic-component",
+    "npm": "ng-dynamic-component",
+    "owner": "gund",
+    "repo": "ng-dynamic-component",
+    "url": "https://github.com/gund/ng-dynamic-component#readme",
+    "category": "Component",
+    "tags": ["dynamic"],
+    "description": "Dynamic components with full life-cycle support for inputs and outputs"
+  },
+  {
+    "name": "ngx-highlightjs",
+    "npm": "ngx-highlightjs",
+    "owner": "murhafsousli",
+    "repo": "ngx-highlightjs",
+    "url": "https://ngx-highlight.netlify.com/",
+    "category": "Component",
+    "tags": ["highlight", "code"],
+    "description": "Instant code highlighting, auto-detect language, super easy to use"
+  },
+  {
+    "name": "phaser-component-library",
+    "npm": "phaser-component-library",
+    "owner": "kidthales",
+    "repo": "phaser-component-library",
+    "url": "https://github.com/kidthales/phaser-component-library",
+    "category": "Component",
+    "tags": ["phaser", "videogame"],
+    "description": "Phaser component for Angular."
+  },
+  {
+    "name": "simplebar-angular",
+    "npm": "simplebar-angular",
+    "owner": "Grsmto",
+    "repo": "simplebar",
+    "url": "http://grsmto.github.io/simplebar/",
+    "category": "Component",
+    "tags": ["scrollbar"],
+    "description": "Custom scrollbars vanilla javascript library with native scroll, done simple, lightweight, easy to use and cross-browser."
   }
 ]
