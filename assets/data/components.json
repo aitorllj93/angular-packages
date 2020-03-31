@@ -458,5 +458,125 @@
     "category": "Component",
     "tags": ["export"],
     "description": "Typescript angular module to export Table/HTML to popular file formats"
+  },
+  {
+    "name": "ngx-dnd",
+    "npm": "@swimlane/ngx-dnd",
+    "owner": "swimlane",
+    "repo": "ngx-dnd",
+    "url": "https://github.com/swimlane/ngx-dnd",
+    "category": "Component",
+    "tags": ["drag-and-drop", "sorting"],
+    "description": "Drag, Drop and Sorting Library for Angular6 and beyond!"
+  },
+  {
+    "name": "angular2-text-mask",
+    "npm": "angular2-text-mask",
+    "owner": "text-mask",
+    "repo": "text-mask",
+    "url": "https://text-mask.github.io/text-mask/",
+    "category": "Component",
+    "tags": ["input", "mask", "forms"],
+    "description": "Input mask for React, Angular, Ember, Vue, & plain JavaScript"
+  },
+  {
+    "name": "angular-imask",
+    "npm": "angular-imask",
+    "owner": "uNmAnNeR",
+    "repo": "imaskjs",
+    "url": "https://imask.js.org/",
+    "category": "Component",
+    "tags": ["input", "mask", "forms"],
+    "description": "vanilla javascript input mask"
+  },
+  {
+    "name": "ng-click-outside",
+    "npm": "ng-click-outside",
+    "owner": "arkon",
+    "repo": "ng-click-outside",
+    "url": "https://echeung.me/ng-click-outside/",
+    "category": "Component",
+    "tags": ["click"],
+    "description": "Angular directive for handling click events outside of an element."
+  },
+  {
+    "name": "ng2-pdfjs-viewer",
+    "npm": "ng2-pdfjs-viewer",
+    "owner": "intbot",
+    "repo": "ng2-pdfjs-viewer",
+    "url": "https://github.com/intbot/ng2-pdfjs-viewer#readme",
+    "category": "Component",
+    "tags": ["pdf"],
+    "description": "Angular PDFJS viewer with Mozilla's ViewerJS. Supports Angular 2+ (Angular versions ^2.0.0 to ^9.0.0)"
+  },
+  {
+    "name": "ngx-clipboard",
+    "npm": "ngx-clipboard",
+    "owner": "maxisam",
+    "repo": "ngx-clipboard",
+    "url": "https://maxisam.github.io/ngx-clipboard/",
+    "category": "Component",
+    "tags": ["clipboard"],
+    "description": "A pure angular clipboard directive"
+  },
+  {
+    "name": "ngx-hotkeys",
+    "npm": "ngx-hotkeys",
+    "owner": "alimohammad",
+    "repo": "ngx-hotkeys",
+    "url": "https://github.com/alimohammad/ng-hotkeys#readme",
+    "category": "Component",
+    "tags": ["keyboard", "shortcuts", "hotkeys"],
+    "description": "Keyboard shortcuts for Angular 2 apps"
+  },
+  {
+    "name": "ngx-masonry",
+    "npm": "ngx-masonry",
+    "owner": "wynfred",
+    "repo": "ngx-masonry",
+    "url": "https://ngx-masonry-demo.herokuapp.com/",
+    "category": "Component",
+    "tags": ["masonry", "gallery"],
+    "description": "Angular Module for displaying a feed of items in a masonry layout using https://github.com/desandro/masonry"
+  },
+  {
+    "name": "ngx-moment",
+    "npm": "ngx-moment",
+    "owner": "urish",
+    "repo": "ngx-moment",
+    "url": "https://github.com/urish/ngx-moment",
+    "category": "Component",
+    "tags": ["date"],
+    "description": "moment.js pipes for Angular"
+  },
+  {
+    "name": "ngx-monaco-editor",
+    "npm": "ngx-monaco-editor",
+    "owner": "atularen",
+    "repo": "ngx-monaco-editor",
+    "url": "https://github.com/atularen/ngx-monaco-editor#readme",
+    "category": "Component",
+    "tags": ["editor", "code"],
+    "description": "Monaco Editor component for Angular 2 and Above"
+  },
+  {
+    "name": "ngx-quill",
+    "npm": "ngx-quill",
+    "owner": "KillerCodeMonkey",
+    "repo": "ngx-quill",
+    "url": "https://github.com/KillerCodeMonkey/ngx-quill",
+    "category": "Component",
+    "tags": ["editor"],
+    "description": "Angular (>=2) components for the Quill Rich Text Editor"
+  },
+  {
+    "name": "compodoc",
+    "npm": "@compodoc/compodoc",
+    "owner": "compodoc",
+    "repo": "compodoc",
+    "url": "https://compodoc.app/",
+    "category": "Tool",
+    "tags": ["documentation", "coverage"],
+    "description": "The missing documentation tool for your Angular, Nest & Stencil application"
   }
 ]
