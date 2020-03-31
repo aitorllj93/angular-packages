@@ -358,5 +358,45 @@
     "category": "Service Provider",
     "tags": ["http", "REST", "CRUD"],
     "description": "This library allows to interact with rest api in your angular app"
+  },
+  {
+    "name": "angular-jwt",
+    "npm": "@auth0/angular-jwt",
+    "owner": "auth0",
+    "repo": "angular2-jwt",
+    "url": "https://github.com/auth0/angular2-jwt",
+    "category": "Service Provider",
+    "tags": ["jwt", "http"],
+    "description": "Helper library for handling JWTs in Angular 2+ apps"
+  },
+  {
+    "name": "ngx-translate",
+    "npm": "@ngx-translate/core",
+    "owner": "ngx-translate",
+    "repo": "core",
+    "url": "http://www.ngx-translate.com/",
+    "category": "Service Provider",
+    "tags": ["i18n", "translation"],
+    "description": "The internationalization (i18n) library for Angular"
+  },
+  {
+    "name": "ngx-toastr",
+    "npm": "ngx-toastr",
+    "owner": "scttcper",
+    "repo": "ngx-toastr",
+    "url": "https://ngx-toastr.netlify.com/",
+    "category": "Component",
+    "tags": ["toast", "notification"],
+    "description": "Angular Toastr"
+  },
+  {
+    "name": "ngx-loading",
+    "npm": "ngx-loading",
+    "owner": "Zak-C",
+    "repo": "ngx-loading",
+    "url": "https://github.com/Zak-C/ngx-loading",
+    "category": "Component",
+    "tags": ["spinner", "loading"],
+    "description": "A customisable loading spinner for Angular applications."
   }
 ]
