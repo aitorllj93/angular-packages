@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use './styles/body';
+
+@use '@material/theme' with (
+  $primary: #1976d3,
+  $secondary: #de002f,
+  $background: #fff,
+);
+
+// MDC Typography
+@use '@material/typography/mdc-typography';
+
+@use '@material/list/mdc-list';
+@use '@material/chips/mdc-chips';
+@use '@material/textfield/mdc-text-field';
+@use '@material/form-field/mdc-form-field';
+
+@use './styles/top-app-bar';
+@use './styles/button';
+@use './styles/card';
+
+// Angular MDC
+@use '@angular-mdc/theme/material';
+
+
+@use 'github-markdown-css/github-markdown.css';
+
+@use "@ng-select/ng-select/scss/material.theme" as ng-select-material with (
+  $ng-select-highlight: #1976d3
+);
+
+.markdown-body {
+  box-sizing: border-box;
+}
+
+.circle-icon {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+
+.circle-component {
+  background: #1B9CFC;
+}
+
+.circle-ui {
+  background: #9AECDB;
+}
+
+.circle-sp {
+  background: #F97F51;
+}
+
+.circle-tool {
+  background: #6D214F;
+}
+
+.ng-select .ng-select-container {
+  min-height: 55.5px !important;
+}

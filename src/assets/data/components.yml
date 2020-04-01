@@ -1,0 +1,1049 @@
+---
+- name: ng-select
+  npm: "@ng-select/ng-select"
+  owner: ng-select
+  repo: ng-select
+  url: https://ng-select.github.io/ng-select
+  category: Component
+  tags:
+  - select
+  - multiselect
+  - autocomplete
+  - virtual scroll
+  - forms
+  - "\U0001F3A8 material"
+  - "\U0001F3A8 ant"
+  description: Lightweight all in one UI Select, Multiselect and Autocomplete
+- name: ngx-datatable
+  npm: "@swimlane/ngx-datatable"
+  owner: swimlane
+  repo: ngx-datatable
+  url: https://swimlane.github.io/ngx-datatable
+  category: Component
+  tags:
+  - datatable
+  - grid
+  - table
+  - "\U0001F3A8 material"
+  - "\U0001F3A8 bootstrap"
+  description: Angular component for presenting large and complex data
+- name: ngx-charts
+  npm: "@swimlane/ngx-charts"
+  owner: swimlane
+  repo: ngx-charts
+  url: https://swimlane.github.io/ngx-charts
+  category: Component
+  tags:
+  - charts
+  - d3
+  - data visualization
+  description: Declarative Charting Framework for Angular
+- name: ngx-cron
+  npm: "@swimlane/ngx-cron"
+  owner: swimlane
+  repo: ngx-cron
+  url: https://swimlane.github.io/ngx-cron
+  category: Component
+  tags:
+  - cron
+  - forms
+  description: User-friendly cron input...
+- name: ngx-cron-editor
+  npm: ngx-cron-editor
+  owner: haavardj
+  repo: ngx-cron-editor
+  url: https://haavardj.github.io/ngx-cron-editor/
+  category: Component
+  tags:
+  - cron
+  - forms
+  - "\U0001F3A8 material"
+  description: An Angular 8 component for building cron expressions graphically. It
+    is meant to be used in reactive forms and support Angular Material Design styling.
+- name: ngx-codex
+  npm: ngx-codex
+  owner: d3v0ps
+  repo: ngx-codex
+  url: https://d3v0ps.github.io/ngx-codex
+  category: Component
+  tags:
+  - editor.js
+  - block-based editor
+  - forms
+  description: Angular editor.js component with custom components support.
+- name: ngx-bpmn-modeler
+  npm: ngx-bpmn-modeler
+  owner: d3v0ps
+  repo: ngx-bpmn-modeler
+  url: https://d3v0ps.github.io/ngx-bpmn-modeler
+  category: Component
+  tags:
+  - bpmn-js
+  - diagrams
+  - forms
+  description: Angular editor.js component with custom components support.
+- name: ngx-chips
+  npm: ngx-chips
+  owner: Gbuomprisco
+  repo: ngx-chips
+  url: https://angular-mfppay.stackblitz.io
+  category: Component
+  tags:
+  - chips
+  - forms
+  - "\U0001F3A8 material"
+  - "\U0001F3A8 bootstrap"
+  description: Tag Input component for Angular
+- name: ngx-ui
+  npm: "@swimlane/ngx-ui"
+  owner: swimlane
+  repo: ngx-ui
+  url: https://swimlane.github.io/ngx-ui/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 material"
+  description: ngx-ui is a component and style library for Angular projects.
+- name: angular-mdc
+  npm: "@angular-mdc/web"
+  owner: trimox
+  repo: angular-mdc-web
+  url: https://trimox.github.io/angular-mdc-web
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 material"
+  description: Angular wrapper for Material Design (Web) Components
+- name: angular-material
+  npm: "@angular/material"
+  owner: angular
+  repo: components
+  url: https://material.angular.io/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 material"
+  - official
+  description: Material Design components for Angular
+- name: covalent
+  npm: "@covalent/core"
+  owner: teradata
+  repo: covalent
+  url: https://teradata.github.io/covalent
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 material"
+  description: Reusable tested tools to build robust Angular Material & Angular applications
+- name: angular-cdk
+  npm: "@angular/cdk"
+  owner: angular
+  repo: components
+  url: https://material.angular.io/cdk/categories
+  category: UI Kit
+  tags:
+  - official
+  - layout
+  description: Library that helps you author custom UI components with common interaction
+    patterns
+- name: angular-flex-layout
+  npm: "@angular/flex-layout"
+  owner: angular
+  repo: flex-layout
+  url: https://github.com/angular/flex-layout
+  category: Component
+  tags:
+  - official
+  - layout
+  - flex
+  description: Provides HTML UI layout for Angular applications; using Flexbox and
+    a Responsive API
+- name: ngx-swiper-wrapper
+  npm: ngx-swiper-wrapper
+  owner: zefoy
+  repo: ngx-swiper-wrapper
+  url: https://github.com/zefoy/ngx-swiper-wrapper#readme
+  category: Component
+  tags:
+  - swiper
+  - slides
+  - carousel
+  description: Angular wrapper library for Swiper
+- name: ngrx-store
+  npm: "@ngrx/store"
+  owner: ngrx
+  repo: platform
+  url: https://ngrx.io/guide/store
+  category: Service Provider
+  tags:
+  - store
+  - state
+  - rxjs
+  description: Store is RxJS powered state management for Angular applications, inspired
+    by Redux. Store is a controlled state container designed to help write performant,
+    consistent applications on top of Angular.
+- name: ngxs-store
+  npm: "@ngxs/store"
+  owner: ngxs
+  repo: store
+  url: https://www.ngxs.io/
+  category: Service Provider
+  tags:
+  - store
+  - state
+  - rxjs
+  description: NGXS is a state management pattern + library for Angular
+- name: ng-sidebar
+  npm: ng-sidebar
+  owner: arkon
+  repo: ng-sidebar
+  url: https://github.com/arkon/ng-sidebar#readme
+  category: Component
+  tags:
+  - sidebar
+  - drawer
+  description: An Angular sidebar component.
+- name: angular-split
+  npm: angular-split
+  owner: bertrandg
+  repo: angular-split
+  url: https://bertrandg.github.io/angular-split/#/
+  category: Component
+  tags:
+  - split
+  - resize
+  description: Angular UI library to split views and allow dragging to resize areas
+    using CSS flexbox layout.
+- name: ngx-bootstrap
+  npm: ngx-bootstrap
+  owner: valor-software
+  repo: ngx-bootstrap
+  url: https://valor-software.com/ngx-bootstrap/#/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 bootstrap"
+  description: Bootstrap components, powered by Angular
+- name: ng-bootstrap
+  npm: ng-bootstrap
+  owner: ng-bootstrap
+  repo: ng-bootstrap
+  url: https://ng-bootstrap.github.io/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 bootstrap"
+  description: Angular widgets built from the ground up using only Bootstrap 4 CSS
+    with APIs designed for the Angular ecosystem. No dependencies on 3rd party JavaScript.
+- name: ng-zorro-antd
+  npm: ng-zorro-antd
+  owner: ng-zorro
+  repo: ng-zorro-antd
+  url: https://ng.ant.design/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 ant"
+  description: An enterprise-class UI components based on Ant Design and Angular.
+- name: nebular
+  npm: "@nebular/theme"
+  owner: akveo
+  repo: nebular
+  url: https://akveo.github.io/nebular/
+  category: UI Kit
+  tags:
+  - "\U0001F3A8 eva"
+  description: Customizable Angular UI Library based on Eva Design System
+- name: apollo-angular
+  npm: apollo-angular
+  owner: apollographql
+  repo: apollo-angular
+  url: https://www.apollographql.com/docs/angular/
+  category: Service Provider
+  tags:
+  - graphql
+  description: A fully-featured, production ready caching GraphQL client for Angular
+    and every GraphQL server
+- name: rxweb
+  npm: "@rxweb/reactive-form-validators"
+  owner: rxweb
+  repo: rxweb
+  url: https://docs.rxweb.io/
+  category: Service Provider
+  tags:
+  - forms
+  - validation
+  description: The most efficient validation framework for angular applications
+- name: ngx-meta
+  npm: "@ngx-meta/core"
+  owner: fulls1z3
+  repo: ngx-meta
+  url: https://github.com/fulls1z3/ngx-meta
+  category: Service Provider
+  tags:
+  - meta-tags
+  description: Dynamic page title & meta tags utility for Angular (w/server-side rendering)
+- name: ngx-config
+  npm: "@ngx-config/core"
+  owner: fulls1z3
+  repo: ngx-config
+  url: https://github.com/fulls1z3/ngx-config
+  category: Service Provider
+  tags:
+  - config
+  description: Configuration utility for Angular
+- name: ngx-cache
+  npm: "@ngx-cache/core"
+  owner: fulls1z3
+  repo: ngx-cache
+  url: https://github.com/fulls1z3/ngx-cache
+  category: Service Provider
+  tags:
+  - cache
+  description: Cache  utility for Angular
+- name: angular-epic-spinners
+  npm: angular-epic-spinners
+  owner: HackAfro
+  repo: angular-epic-spinners
+  url: https://hackafro.github.io/angular-epic-spinners
+  category: Component
+  tags:
+  - spinner
+  - loading
+  description: Reusable angular components for epic-spinners
+- name: ngx-deploy-npm
+  npm: ngx-deploy-npm
+  owner: bikecoders
+  repo: ngx-deploy-npm
+  url: https://github.com/bikecoders/ngx-deploy-npm
+  category: Tool
+  tags:
+  - deployment
+  - npm
+  description: Deploy your Angular Library to NPM directly from the Angular CLI!
+- name: angular-cli-ghpages
+  npm: angular-cli-ghpages
+  owner: angular-schule
+  repo: angular-cli-ghpages
+  url: https://github.com/angular-schule/angular-cli-ghpages
+  category: Tool
+  tags:
+  - deployment
+  - github
+  description: Deploy your Angular app to GitHub pages directly from the Angular CLI!
+- name: scully
+  npm: "@scullyio/scully"
+  owner: scullyio
+  repo: scully
+  url: https://github.com/scullyio/scully
+  category: Tool
+  tags:
+  - static site
+  description: The best way to build the fastest Angular apps. Scully is a static
+    site generator for Angular projects looking to embrace the JAMStack.
+- name: ng-busy
+  npm: ng-busy
+  owner: victos
+  repo: angular-opensource
+  url: https://github.com/victos/angular-opensource/tree/master/projects/ng-busy
+  category: Component
+  tags:
+  - spinner
+  - loading
+  description: NgBusy can show busy/loading indicators on any promise, or on any Observable's
+    subscription.
+- name: ngx-progressbar
+  npm: ngx-progressbar
+  owner: MurhafSousli
+  repo: ngx-progressbar
+  url: https://ngx-progressbar.netlify.com
+  category: Component
+  tags:
+  - progressbar
+  - loading
+  description: A nanoscopic progress bar. Featuring realistic trickle animations to
+    convince your users that something is happening!
+- name: transloco
+  npm: "@ngneat/transloco"
+  owner: ngneat
+  repo: transloco
+  url: https://netbasal.gitbook.io/transloco/
+  category: Service Provider
+  tags:
+  - i18n
+  - translation
+  description: The internationalization (i18n) library for Angular
+- name: angular-ssr
+  npm: angular-ssr
+  owner: rangle
+  repo: angular-ssr
+  url: https://github.com/rangle/angular-ssr
+  category: Tool
+  tags:
+  - server-side rendering
+  description: Angular 4+ server-side rendering solution compatible with @angular/material,
+    jQuery, and other libraries that touch the DOM (as well as providing a rich feature
+    set!)
+- name: angular-commerce
+  npm: angular-commerce
+  owner: NodeArt
+  repo: angular-commerce
+  url: https://angularcommerce.io/#for-developers
+  category: UI Kit
+  tags:
+  - commerce
+  description: Angular components for scaffolding online store
+- name: codelyzer
+  npm: codelyzer
+  owner: mgechev
+  repo: codelyzer
+  url: http://codelyzer.com
+  category: Tool
+  tags:
+  - linting
+  description: Static analysis for Angular projects.
+- name: storybook
+  npm: "@storybook/cli"
+  owner: storybookjs
+  repo: storybook
+  url: https://storybook.js.org/docs/guides/guide-angular/
+  category: Tool
+  tags:
+  - devTool
+  description: Storybook is a development environment for UI components. It allows
+    you to browse a component library, view the different states of each component,
+    and interactively develop and test components.
+- name: ngx-resource
+  npm: "@ngx-resource/core"
+  owner: troyanskiy
+  repo: ngx-resource
+  url: http://troyanskiy.github.io/ngx-resource
+  category: Service Provider
+  tags:
+  - http
+  - REST
+  - CRUD
+  description: Resource (REST) Client for Angular 2
+- name: ngx-http-rest
+  npm: ngx-http-rest
+  owner: Mixalloff
+  repo: ngx-http-rest
+  url: https://github.com/Mixalloff/ngx-http-rest
+  category: Service Provider
+  tags:
+  - http
+  - REST
+  - CRUD
+  description: This library allows to interact with rest api in your angular app
+- name: ngx-restangular
+  npm: ngx-restangular
+  owner: 2muchcoffeecom
+  repo: ngx-restangular
+  url: https://github.com/2muchcoffeecom/ngx-restangular
+  category: Service Provider
+  tags:
+  - http
+  - REST
+  - CRUD
+  description: Restangular for Angular 2 and higher versions
+- name: angular-jwt
+  npm: "@auth0/angular-jwt"
+  owner: auth0
+  repo: angular2-jwt
+  url: https://github.com/auth0/angular2-jwt
+  category: Service Provider
+  tags:
+  - jwt
+  - http
+  description: Helper library for handling JWTs in Angular 2+ apps
+- name: ngx-translate
+  npm: "@ngx-translate/core"
+  owner: ngx-translate
+  repo: core
+  url: http://www.ngx-translate.com/
+  category: Service Provider
+  tags:
+  - i18n
+  - translation
+  description: The internationalization (i18n) library for Angular
+- name: ngx-toastr
+  npm: ngx-toastr
+  owner: scttcper
+  repo: ngx-toastr
+  url: https://ngx-toastr.netlify.com/
+  category: Component
+  tags:
+  - toast
+  - notification
+  description: Angular Toastr
+- name: ngx-loading
+  npm: ngx-loading
+  owner: Zak-C
+  repo: ngx-loading
+  url: https://github.com/Zak-C/ngx-loading
+  category: Component
+  tags:
+  - spinner
+  - loading
+  description: A customisable loading spinner for Angular applications.
+- name: ng-keyboard-shortcuts
+  npm: ng-keyboard-shortcuts
+  owner: omridevk
+  repo: ng-keyboard-shortcuts
+  url: https://omridevk.github.io/ng-keyboard-shortcuts/
+  category: Component
+  tags:
+  - keyboard
+  - shortcuts
+  - hotkeys
+  description: An Angular module that provides a declarative API using components/directive
+    to manage Keyboard shortcuts in scalable way.
+- name: ngx-card
+  npm: ngx-card
+  owner: ihym
+  repo: ngx-card
+  url: https://ihym.github.io/ngx-card/
+  category: Component
+  tags:
+  - payment
+  - card
+  description: Angular 2+ wrapper for card.js
+- name: ngx-credit-cards
+  npm: ngx-credit-cards
+  owner: zenkkor
+  repo: ngx-credit-cards
+  url: https://github.com/zenkkor/ngx-credit-cards#readme
+  category: Component
+  tags:
+  - payment
+  - card
+  - forms
+  description: A Credit Card Directives and Form Validators package for Angular X
+    (4+).
+- name: ngx-stripe
+  npm: "@nomadreservations/ngx-stripe"
+  owner: nomadreservations
+  repo: ngx-stripe
+  url: https://ihym.github.io/ngx-card/
+  category: Component
+  tags:
+  - payment
+  - stripe
+  description: Angular 8.x wrapper for StripeJS
+- name: ngx-webstorage
+  npm: ngx-webstorage
+  owner: PillowPillow
+  repo: ng2-webstorage
+  url: https://github.com/PillowPillow/ng2-webstorage
+  category: Service Provider
+  tags:
+  - localstorage
+  - sessionstorage
+  description: This library provides an easy to use service to manage the web storages
+    (local and session) from your Angular application. It provides also two decorators
+    to synchronize the component attributes and the web storages.
+- name: ui-router
+  npm: "@uirouter/angular"
+  owner: ui-router
+  repo: angular
+  url: https://ui-router.github.io/ng2/
+  category: Service Provider
+  tags:
+  - router
+  - state
+  description: UI-Router provides extremely flexible, state based routing to the Angular
+    (2+) ecosystem.
+- name: ngx-export-as
+  npm: ngx-export-as
+  owner: wnabil
+  repo: ngx-export-as
+  url: https://github.com/wnabil/ngx-export-as
+  category: Component
+  tags:
+  - export
+  description: Typescript angular module to export Table/HTML to popular file formats
+- name: ngx-dnd
+  npm: "@swimlane/ngx-dnd"
+  owner: swimlane
+  repo: ngx-dnd
+  url: https://github.com/swimlane/ngx-dnd
+  category: Component
+  tags:
+  - drag-and-drop
+  - sorting
+  description: Drag, Drop and Sorting Library for Angular6 and beyond!
+- name: angular2-text-mask
+  npm: angular2-text-mask
+  owner: text-mask
+  repo: text-mask
+  url: https://text-mask.github.io/text-mask/
+  category: Component
+  tags:
+  - input
+  - mask
+  - forms
+  description: Input mask for React, Angular, Ember, Vue, & plain JavaScript
+- name: angular-imask
+  npm: angular-imask
+  owner: uNmAnNeR
+  repo: imaskjs
+  url: https://imask.js.org/
+  category: Component
+  tags:
+  - input
+  - mask
+  - forms
+  description: vanilla javascript input mask
+- name: ng-click-outside
+  npm: ng-click-outside
+  owner: arkon
+  repo: ng-click-outside
+  url: https://echeung.me/ng-click-outside/
+  category: Component
+  tags:
+  - click
+  description: Angular directive for handling click events outside of an element.
+- name: ng2-pdfjs-viewer
+  npm: ng2-pdfjs-viewer
+  owner: intbot
+  repo: ng2-pdfjs-viewer
+  url: https://github.com/intbot/ng2-pdfjs-viewer#readme
+  category: Component
+  tags:
+  - pdf
+  description: Angular PDFJS viewer with Mozilla's ViewerJS. Supports Angular 2+ (Angular
+    versions ^2.0.0 to ^9.0.0)
+- name: ngx-clipboard
+  npm: ngx-clipboard
+  owner: maxisam
+  repo: ngx-clipboard
+  url: https://maxisam.github.io/ngx-clipboard/
+  category: Component
+  tags:
+  - clipboard
+  description: A pure angular clipboard directive
+- name: ngx-hotkeys
+  npm: ngx-hotkeys
+  owner: alimohammad
+  repo: ngx-hotkeys
+  url: https://github.com/alimohammad/ng-hotkeys#readme
+  category: Component
+  tags:
+  - keyboard
+  - shortcuts
+  - hotkeys
+  description: Keyboard shortcuts for Angular 2 apps
+- name: ngx-masonry
+  npm: ngx-masonry
+  owner: wynfred
+  repo: ngx-masonry
+  url: https://ngx-masonry-demo.herokuapp.com/
+  category: Component
+  tags:
+  - masonry
+  - gallery
+  description: Angular Module for displaying a feed of items in a masonry layout using
+    https://github.com/desandro/masonry
+- name: ngx-moment
+  npm: ngx-moment
+  owner: urish
+  repo: ngx-moment
+  url: https://github.com/urish/ngx-moment
+  category: Component
+  tags:
+  - date
+  description: moment.js pipes for Angular
+- name: ngx-monaco-editor
+  npm: ngx-monaco-editor
+  owner: atularen
+  repo: ngx-monaco-editor
+  url: https://github.com/atularen/ngx-monaco-editor#readme
+  category: Component
+  tags:
+  - editor
+  - code
+  description: Monaco Editor component for Angular 2 and Above
+- name: ngx-quill
+  npm: ngx-quill
+  owner: KillerCodeMonkey
+  repo: ngx-quill
+  url: https://github.com/KillerCodeMonkey/ngx-quill
+  category: Component
+  tags:
+  - editor
+  description: Angular (>=2) components for the Quill Rich Text Editor
+- name: compodoc
+  npm: "@compodoc/compodoc"
+  owner: compodoc
+  repo: compodoc
+  url: https://compodoc.app/
+  category: Tool
+  tags:
+  - documentation
+  - coverage
+  description: The missing documentation tool for your Angular, Nest & Stencil application
+- name: angular-gridster2
+  npm: angular-gridster2
+  owner: tiberiuzuld
+  repo: angular-gridster2
+  url: https://tiberiuzuld.github.io/angular-gridster2/
+  category: Component
+  tags:
+  - gridster
+  - dashboard
+  description: Angular gridster 2
+- name: ng-dynamic-component
+  npm: ng-dynamic-component
+  owner: gund
+  repo: ng-dynamic-component
+  url: https://github.com/gund/ng-dynamic-component#readme
+  category: Component
+  tags:
+  - dynamic
+  description: Dynamic components with full life-cycle support for inputs and outputs
+- name: ngx-highlightjs
+  npm: ngx-highlightjs
+  owner: murhafsousli
+  repo: ngx-highlightjs
+  url: https://ngx-highlight.netlify.com/
+  category: Component
+  tags:
+  - highlight
+  - code
+  description: Instant code highlighting, auto-detect language, super easy to use
+- name: phaser-component-library
+  npm: phaser-component-library
+  owner: kidthales
+  repo: phaser-component-library
+  url: https://github.com/kidthales/phaser-component-library
+  category: Component
+  tags:
+  - phaser
+  - videogame
+  description: Phaser component for Angular.
+- name: simplebar-angular
+  npm: simplebar-angular
+  owner: Grsmto
+  repo: simplebar
+  url: http://grsmto.github.io/simplebar/
+  category: Component
+  tags:
+  - scrollbar
+  description: Custom scrollbars vanilla javascript library with native scroll, done
+    simple, lightweight, easy to use and cross-browser.
+- name: ngx-tooltip
+  npm: "@teamhive/ngx-tooltip"
+  owner: TeamHive
+  repo: ngx-tooltip
+  url: https://github.com/TeamHive/ngx-tooltip
+  category: Component
+  tags:
+  - tooltip
+  description: Angular 7 library wrapper around TippyJS tooltips.
+- name: ngx-img-fallback
+  npm: ngx-img-fallback
+  owner: VadimDez
+  repo: ngx-img-fallback
+  url: https://vadimdez.github.io/ngx-img-fallback/
+  category: Component
+  tags:
+  - img
+  - placeholder
+  description: Load placeholder image on image error, Angular 5+
+- name: angular-fullpage
+  npm: "@fullpage/angular-fullpage"
+  owner: alvarotrigo
+  repo: angular-fullpage
+  url: https://alvarotrigo.com/angular-fullpage/
+  category: Component
+  tags:
+  - fullpage
+  - scroll
+  description: Official Angular wrapper for fullPage.js
+- name: ngx-countdown
+  npm: ngx-countdown
+  owner: cipchk
+  repo: ngx-countdown
+  url: https://cipchk.github.io/ngx-countdown/#/
+  category: Component
+  tags:
+  - countdown
+  description: Simple, easy and performance countdown for angular
+- name: ng-animate
+  npm: ng-animate
+  owner: jiayihu
+  repo: ng-animate
+  url: https://jiayihu.github.io/ng-animate/
+  category: Component
+  tags:
+  - animation
+  description: A collection of cool, reusable and flexible animations for Angular
+    4.2+
+- name: ng-lottie
+  npm: ng-lottie
+  owner: chenqingspring
+  repo: ng-lottie
+  url: https://chenqingspring.github.io/ng-lottie/demo/
+  category: Component
+  tags:
+  - animation
+  - Adobe After Effects
+  description: Render After Effects animations on Angular based on lottie-web
+- name: angular-archwizard
+  npm: angular-archwizard
+  owner: madoar
+  repo: angular-archwizard
+  url: https://madoar.github.io/angular-archwizard-demo
+  category: Component
+  tags:
+  - wizard
+  - stepper
+  description: A wizard component for Angular 9+
+- name: ng-katex
+  npm: ng-katex
+  owner: garciparedes
+  repo: ng-katex
+  url: https://garciparedes.me/ng-katex/
+  category: Component
+  tags:
+  - math
+  - TeX
+  description: Angular module to write beautiful math expressions in TeX syntax boosted
+    by KaTeX library
+- name: ng-fullcalendar
+  npm: "@fullcalendar/angular"
+  owner: fullcalendar
+  repo: fullcalendar-angular
+  url: https://fullcalendar.io/docs/angular
+  category: Component
+  tags:
+  - calendar
+  description: An official Angular component for FullCalendar
+- name: ngx-mapbox-gl
+  npm: ngx-mapbox-gl
+  owner: Wykks
+  repo: ngx-mapbox-gl
+  url: https://wykks.github.io/ngx-mapbox-gl/
+  category: Component
+  tags:
+  - maps
+  description: Angular wrapper for mapbox-gl-js. Expose a bunch of component meant
+    to be simple to use for Angular.
+- name: ngx-linkifyjs
+  npm: ngx-linkifyjs
+  owner: anthonynahas
+  repo: ngx-linkifyjs
+  url: https://anthonynahas.github.io/ngx-linkifyjs/
+  category: Component
+  tags:
+  - url
+  description: Angular V8 wrapper for linkifyjs - library for finding links in plain
+    text and converting them to HTML <a> tags via linkifyjs
+- name: ngx-recursive-form
+  npm: ngx-recursive-form
+  owner: hsbalar
+  repo: ngx-recursive-form
+  url: https://www.hiteshbalar.com/ngx-recursive-form/
+  category: Component
+  tags:
+  - forms
+  - dynamic
+  description: Angular recursive form at any level based on your json input.
+- name: ngx-formly
+  npm: "@ngx-formly/core"
+  owner: ngx-formly
+  repo: ngx-formly
+  url: https://formly.dev/
+  category: Component
+  tags:
+  - forms
+  - dynamic
+  - "\U0001F3A8 material"
+  - "\U0001F3A8 bootstrap"
+  - "\U0001F3A8 ant"
+  description: Formly is a dynamic (JSON powered) form library for Angular that bring
+    unmatched maintainability to your application's forms.
+- name: password-strength
+  npm: "@angular-material-extensions/password-strength"
+  owner: angular-material-extensions
+  repo: password-strength
+  url: https://angular-material-extensions.github.io/password-strength/home
+  category: Component
+  tags:
+  - password
+  - forms
+  - "\U0001F3A8 material"
+  description: Angular UI library to illustrate and validate a password's strength
+    with material design - Angular V9 supported
+- name: pages
+  npm: "@angular-material-extensions/pages"
+  owner: angular-material-extensions
+  repo: pages
+  url: https://angular-material-extensions.github.io/pages/home
+  category: Component
+  tags:
+  - wizard
+  - stepper
+  - "\U0001F3A8 material"
+  description: Open source library for angular apps to illustrate custom material
+    pages content with steps (ideal for tutorials and explanations purposes)
+- name: google-maps-autocomplete
+  npm: "@angular-material-extensions/google-maps-autocomplete"
+  owner: angular-material-extensions
+  repo: google-maps-autocomplete
+  url: https://angular-material-extensions.github.io/google-maps-autocomplete/home
+  category: Component
+  tags:
+  - maps
+  - autocomplete
+  - forms
+  - "\U0001F3A8 material"
+  description: Autocomplete input component and directive for google-maps built with
+    angular and material design | ANGULAR V9 SUPPORTED
+- name: link-preview
+  npm: "@angular-material-extensions/link-preview"
+  owner: angular-material-extensions
+  repo: link-preview
+  url: https://angular-material-extensions.github.io/link-preview/home
+  category: Component
+  tags:
+  - url
+  description: Angular open source UI library to preview web links
+- name: select-country
+  npm: "@angular-material-extensions/select-country"
+  owner: angular-material-extensions
+  repo: select-country
+  url: https://angular-material-extensions.github.io/select-country/home
+  category: Component
+  tags:
+  - select
+  - autocomplete
+  - forms
+  - "\U0001F3A8 material"
+  description: Angular Material component that allow users to select a country or
+    nationality with an autocomplete feature
+- name: fab-menu
+  npm: "@angular-material-extensions/fab-menu"
+  owner: angular-material-extensions
+  repo: pages
+  url: https://angular-material-extensions.github.io/fab-menu/home
+  category: Component
+  tags:
+  - fab
+  - menu
+  - "\U0001F3A8 material"
+  description: Angular Component that represents a menu of buttons triggered by a
+    floating action button | built with material design
+- name: ngx-app-tour
+  npm: ngx-app-tour
+  owner: hamdiwanis
+  repo: ngx-app-tour
+  url: https://hamdiwanis.github.io/ngx-app-tour/
+  category: Component
+  tags:
+  - tour
+  - showcase
+  description: Angular2+ plugin for building a tour, showcase or a walkthrough for
+    your app
+- name: ngx-wheel
+  npm: ngx-wheel
+  owner: Sayegh7
+  repo: ngx-wheel
+  url: https://github.com/Sayegh7/ngx-wheel
+  category: Component
+  tags:
+  - prize wheel
+  description: Angular (6+) prize winning wheel
+- name: ngx-color
+  npm: ngx-color
+  owner: scttcper
+  repo: ngx-color
+  url: https://ngx-color.netlify.com/
+  category: Component
+  tags:
+  - forms
+  - color picker
+  description: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more
+- name: ngx-trend
+  npm: ngx-trend
+  owner: scttcper
+  repo: ngx-trend
+  url: https://ngx-trend.netlify.com/
+  category: Component
+  tags:
+  - charts
+  - spark lines
+  description: Simple, elegant spark lines for Angular
+- name: ng2-adsense
+  npm: ng2-adsense
+  owner: scttcper
+  repo: ng2-adsense
+  url: https://ng2-adsense.xmplaylist.com/
+  category: Component
+  tags:
+  - ads
+  - adsense
+  description: Angular Adsense Component
+- name: ngx-emoji-mart
+  npm: ngx-emoji-mart
+  owner: TypeCtrl
+  repo: ngx-emoji-mart
+  url: https://ngx-emoji-mart.netlify.app/
+  category: Component
+  tags:
+  - emoji picker
+  description: Customizable Slack-like emoji picker for Angular
+- name: ngx-codemirror
+  npm: ngx-codemirror
+  owner: TypeCtrl
+  repo: ngx-codemirror
+  url: https://ngx-codemirror.netlify.app/
+  category: Component
+  tags:
+  - code
+  - editor
+  description: Codemirror Wrapper for Angular
+- name: ngx-chartjs
+  npm: ngx-chartjs
+  owner: TypeCtrl
+  repo: ngx-chartjs
+  url: https://ngx-chartjs.netlify.app/
+  category: Component
+  tags:
+  - charts
+  - chart.js
+  description: Functional Chart.js wrapper for Angular
+- name: ngx-chartjs
+  npm: ngx-chartjs
+  owner: TypeCtrl
+  repo: ngx-chartjs
+  url: https://ngx-chartjs.netlify.app/
+  category: Component
+  tags:
+  - charts
+  - chart.js
+  description: Functional Chart.js wrapper for Angular
+- name: ngx-rightclick
+  npm: ngx-rightclick
+  owner: TypeCtrl
+  repo: ngx-rightclick
+  url: https://ngx-rightclick.netlify.app/
+  category: Component
+  tags:
+  - rightclick
+  - contextmenu
+  description: Context Menu Service for Angular
+- name: ngx-droppable
+  npm: ngx-droppable
+  owner: TypeCtrl
+  repo: ngx-droppable
+  url: https://ngx-droppable.netlify.app/
+  category: Component
+  tags:
+  - drop
+  - file
+  description: Give file dropping super-powers to any element or component
+- name: ngx-context
+  npm: ngx-context
+  owner: ng-turkey
+  repo: ngx-context
+  url: https://github.com/ng-turkey/ngx-context
+  category: Component
+  tags:
+  - context
+  - binding
+  description: 'Angular Context: Easy property binding for router outlet and nested
+    component trees.'
