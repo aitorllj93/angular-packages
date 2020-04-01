@@ -80,6 +80,16 @@
     "description": "Tag Input component for Angular"
   },
   {
+    "name": "ngx-ui",
+    "npm": "@swimlane/ngx-ui",
+    "owner": "swimlane",
+    "repo": "ngx-ui",
+    "url": "https://swimlane.github.io/ngx-ui/",
+    "category": "UI Kit",
+    "tags": ["🎨 material"],
+    "description": "ngx-ui is a component and style library for Angular projects."
+  },
+  {
     "name": "angular-mdc",
     "npm": "@angular-mdc/web",
     "owner": "trimox",
@@ -98,6 +108,16 @@
     "category": "UI Kit",
     "tags": ["🎨 material", "official"],
     "description": "Material Design components for Angular"
+  },
+  {
+    "name": "covalent",
+    "npm": "@covalent/core",
+    "owner": "teradata",
+    "repo": "covalent",
+    "url": "https://teradata.github.io/covalent",
+    "category": "UI Kit",
+    "tags": ["🎨 material"],
+    "description": "Reusable tested tools to build robust Angular Material & Angular applications"
   },
   {
     "name": "angular-cdk",
@@ -240,6 +260,26 @@
     "description": "Dynamic page title & meta tags utility for Angular (w/server-side rendering)"
   },
   {
+    "name": "ngx-config",
+    "npm": "@ngx-config/core",
+    "owner": "fulls1z3",
+    "repo": "ngx-config",
+    "url": "https://github.com/fulls1z3/ngx-config",
+    "category": "Service Provider",
+    "tags": ["config"],
+    "description": "Configuration utility for Angular"
+  },
+  {
+    "name": "ngx-cache",
+    "npm": "@ngx-cache/core",
+    "owner": "fulls1z3",
+    "repo": "ngx-cache",
+    "url": "https://github.com/fulls1z3/ngx-cache",
+    "category": "Service Provider",
+    "tags": ["cache"],
+    "description": "Cache  utility for Angular"
+  },
+  {
     "name": "angular-epic-spinners",
     "npm": "angular-epic-spinners",
     "owner": "HackAfro",
@@ -288,6 +328,16 @@
     "category": "Component",
     "tags": ["spinner", "loading"],
     "description": "NgBusy can show busy/loading indicators on any promise, or on any Observable's subscription."
+  },
+  {
+    "name": "ngx-progressbar",
+    "npm": "ngx-progressbar",
+    "owner": "MurhafSousli",
+    "repo": "ngx-progressbar",
+    "url": "https://ngx-progressbar.netlify.com",
+    "category": "Component",
+    "tags": ["progressbar", "loading"],
+    "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!"
   },
   {
     "name": "transloco",
@@ -360,6 +410,16 @@
     "description": "This library allows to interact with rest api in your angular app"
   },
   {
+    "name": "ngx-restangular",
+    "npm": "ngx-restangular",
+    "owner": "2muchcoffeecom",
+    "repo": "ngx-restangular",
+    "url": "https://github.com/2muchcoffeecom/ngx-restangular",
+    "category": "Service Provider",
+    "tags": ["http", "REST", "CRUD"],
+    "description": "Restangular for Angular 2 and higher versions"
+  },
+  {
     "name": "angular-jwt",
     "npm": "@auth0/angular-jwt",
     "owner": "auth0",
@@ -418,6 +478,16 @@
     "category": "Component",
     "tags": ["payment", "card"],
     "description": "Angular 2+ wrapper for card.js"
+  },
+  {
+    "name": "ngx-credit-cards",
+    "npm": "ngx-credit-cards",
+    "owner": "zenkkor",
+    "repo": "ngx-credit-cards",
+    "url": "https://github.com/zenkkor/ngx-credit-cards#readme",
+    "category": "Component",
+    "tags": ["payment", "card", "forms"],
+    "description": "A Credit Card Directives and Form Validators package for Angular X (4+)."
   },
   {
     "name": "ngx-stripe",
@@ -638,5 +708,305 @@
     "category": "Component",
     "tags": ["tooltip"],
     "description": "Angular 7 library wrapper around TippyJS tooltips."
+  },
+  {
+    "name": "ngx-img-fallback",
+    "npm": "ngx-img-fallback",
+    "owner": "VadimDez",
+    "repo": "ngx-img-fallback",
+    "url": "https://vadimdez.github.io/ngx-img-fallback/",
+    "category": "Component",
+    "tags": ["img", "placeholder"],
+    "description": "Load placeholder image on image error, Angular 5+"
+  },
+  {
+    "name": "angular-fullpage",
+    "npm": "@fullpage/angular-fullpage",
+    "owner": "alvarotrigo",
+    "repo": "angular-fullpage",
+    "url": "https://alvarotrigo.com/angular-fullpage/",
+    "category": "Component",
+    "tags": ["fullpage", "scroll"],
+    "description": "Official Angular wrapper for fullPage.js"
+  },
+  {
+    "name": "ngx-countdown",
+    "npm": "ngx-countdown",
+    "owner": "cipchk",
+    "repo": "ngx-countdown",
+    "url": "https://cipchk.github.io/ngx-countdown/#/",
+    "category": "Component",
+    "tags": ["countdown"],
+    "description": "Simple, easy and performance countdown for angular"
+  },
+  {
+    "name": "ng-animate",
+    "npm": "ng-animate",
+    "owner": "jiayihu",
+    "repo": "ng-animate",
+    "url": "https://jiayihu.github.io/ng-animate/",
+    "category": "Component",
+    "tags": ["animation"],
+    "description": "A collection of cool, reusable and flexible animations for Angular 4.2+"
+  },
+  {
+    "name": "ng-lottie",
+    "npm": "ng-lottie",
+    "owner": "chenqingspring",
+    "repo": "ng-lottie",
+    "url": "https://chenqingspring.github.io/ng-lottie/demo/",
+    "category": "Component",
+    "tags": ["animation", "Adobe After Effects"],
+    "description": "Render After Effects animations on Angular based on lottie-web"
+  },
+  {
+    "name": "angular-archwizard",
+    "npm": "angular-archwizard",
+    "owner": "madoar",
+    "repo": "angular-archwizard",
+    "url": "https://madoar.github.io/angular-archwizard-demo",
+    "category": "Component",
+    "tags": ["wizard", "stepper"],
+    "description": "A wizard component for Angular 9+"
+  },
+  {
+    "name": "ng-katex",
+    "npm": "ng-katex",
+    "owner": "garciparedes",
+    "repo": "ng-katex",
+    "url": "https://garciparedes.me/ng-katex/",
+    "category": "Component",
+    "tags": ["math", "TeX"],
+    "description": "Angular module to write beautiful math expressions in TeX syntax boosted by KaTeX library"
+  },
+  {
+    "name": "ng-fullcalendar",
+    "npm": "@fullcalendar/angular",
+    "owner": "fullcalendar",
+    "repo": "fullcalendar-angular",
+    "url": "https://fullcalendar.io/docs/angular",
+    "category": "Component",
+    "tags": ["calendar"],
+    "description": "An official Angular component for FullCalendar"
+  },
+  {
+    "name": "ngx-mapbox-gl",
+    "npm": "ngx-mapbox-gl",
+    "owner": "Wykks",
+    "repo": "ngx-mapbox-gl",
+    "url": "https://wykks.github.io/ngx-mapbox-gl/",
+    "category": "Component",
+    "tags": ["maps"],
+    "description": "Angular wrapper for mapbox-gl-js. Expose a bunch of component meant to be simple to use for Angular."
+  },
+  {
+    "name": "ngx-linkifyjs",
+    "npm": "ngx-linkifyjs",
+    "owner": "anthonynahas",
+    "repo": "ngx-linkifyjs",
+    "url": "https://anthonynahas.github.io/ngx-linkifyjs/",
+    "category": "Component",
+    "tags": ["url"],
+    "description": "Angular V8 wrapper for linkifyjs - library for finding links in plain text and converting them to HTML <a> tags via linkifyjs"
+  },
+  {
+    "name": "ngx-recursive-form",
+    "npm": "ngx-recursive-form",
+    "owner": "hsbalar",
+    "repo": "ngx-recursive-form",
+    "url": "https://www.hiteshbalar.com/ngx-recursive-form/",
+    "category": "Component",
+    "tags": ["forms", "dynamic"],
+    "description": "Angular recursive form at any level based on your json input."
+  },
+  {
+    "name": "ngx-formly",
+    "npm": "@ngx-formly/core",
+    "owner": "ngx-formly",
+    "repo": "ngx-formly",
+    "url": "https://formly.dev/",
+    "category": "Component",
+    "tags": ["forms", "dynamic", "🎨 material", "🎨 bootstrap", "🎨 ant"],
+    "description": "Formly is a dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms."
+  },
+  {
+    "name": "password-strength",
+    "npm": "@angular-material-extensions/password-strength",
+    "owner": "angular-material-extensions",
+    "repo": "password-strength",
+    "url": "https://angular-material-extensions.github.io/password-strength/home",
+    "category": "Component",
+    "tags": ["password", "forms", "🎨 material"],
+    "description": "Angular UI library to illustrate and validate a password's strength with material design - Angular V9 supported"
+  },
+  {
+    "name": "pages",
+    "npm": "@angular-material-extensions/pages",
+    "owner": "angular-material-extensions",
+    "repo": "pages",
+    "url": "https://angular-material-extensions.github.io/pages/home",
+    "category": "Component",
+    "tags": ["wizard", "stepper", "🎨 material"],
+    "description": "Open source library for angular apps to illustrate custom material pages content with steps (ideal for tutorials and explanations purposes)"
+  },
+  {
+    "name": "google-maps-autocomplete",
+    "npm": "@angular-material-extensions/google-maps-autocomplete",
+    "owner": "angular-material-extensions",
+    "repo": "google-maps-autocomplete",
+    "url": "https://angular-material-extensions.github.io/google-maps-autocomplete/home",
+    "category": "Component",
+    "tags": ["maps", "autocomplete", "forms", "🎨 material"],
+    "description": "Autocomplete input component and directive for google-maps built with angular and material design | ANGULAR V9 SUPPORTED"
+  },
+  {
+    "name": "link-preview",
+    "npm": "@angular-material-extensions/link-preview",
+    "owner": "angular-material-extensions",
+    "repo": "link-preview",
+    "url": "https://angular-material-extensions.github.io/link-preview/home",
+    "category": "Component",
+    "tags": ["url"],
+    "description": "Angular open source UI library to preview web links"
+  },
+  {
+    "name": "select-country",
+    "npm": "@angular-material-extensions/select-country",
+    "owner": "angular-material-extensions",
+    "repo": "select-country",
+    "url": "https://angular-material-extensions.github.io/select-country/home",
+    "category": "Component",
+    "tags": ["select", "autocomplete", "forms", "🎨 material"],
+    "description": "Angular Material component that allow users to select a country or nationality with an autocomplete feature"
+  },
+  {
+    "name": "fab-menu",
+    "npm": "@angular-material-extensions/fab-menu",
+    "owner": "angular-material-extensions",
+    "repo": "pages",
+    "url": "https://angular-material-extensions.github.io/fab-menu/home",
+    "category": "Component",
+    "tags": ["fab", "menu", "🎨 material"],
+    "description": "Angular Component that represents a menu of buttons triggered by a floating action button | built with material design"
+  },
+  {
+    "name": "ngx-app-tour",
+    "npm": "ngx-app-tour",
+    "owner": "hamdiwanis",
+    "repo": "ngx-app-tour",
+    "url": "https://hamdiwanis.github.io/ngx-app-tour/",
+    "category": "Component",
+    "tags": ["tour", "showcase"],
+    "description": "Angular2+ plugin for building a tour, showcase or a walkthrough for your app"
+  },
+  {
+    "name": "ngx-wheel",
+    "npm": "ngx-wheel",
+    "owner": "Sayegh7",
+    "repo": "ngx-wheel",
+    "url": "https://github.com/Sayegh7/ngx-wheel",
+    "category": "Component",
+    "tags": ["prize wheel"],
+    "description": "Angular (6+) prize winning wheel"
+  },
+  {
+    "name": "ngx-color",
+    "npm": "ngx-color",
+    "owner": "scttcper",
+    "repo": "ngx-color",
+    "url": "https://ngx-color.netlify.com/",
+    "category": "Component",
+    "tags": ["forms", "color picker"],
+    "description": "Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more"
+  },
+  {
+    "name": "ngx-trend",
+    "npm": "ngx-trend",
+    "owner": "scttcper",
+    "repo": "ngx-trend",
+    "url": "https://ngx-trend.netlify.com/",
+    "category": "Component",
+    "tags": ["charts", "spark lines"],
+    "description": "Simple, elegant spark lines for Angular"
+  },
+  {
+    "name": "ng2-adsense",
+    "npm": "ng2-adsense",
+    "owner": "scttcper",
+    "repo": "ng2-adsense",
+    "url": "https://ng2-adsense.xmplaylist.com/",
+    "category": "Component",
+    "tags": ["ads", "adsense"],
+    "description": "Angular Adsense Component"
+  },
+  {
+    "name": "ngx-emoji-mart",
+    "npm": "ngx-emoji-mart",
+    "owner": "TypeCtrl",
+    "repo": "ngx-emoji-mart",
+    "url": "https://ngx-emoji-mart.netlify.app/",
+    "category": "Component",
+    "tags": ["emoji picker"],
+    "description": "Customizable Slack-like emoji picker for Angular"
+  },
+  {
+    "name": "ngx-codemirror",
+    "npm": "ngx-codemirror",
+    "owner": "TypeCtrl",
+    "repo": "ngx-codemirror",
+    "url": "https://ngx-codemirror.netlify.app/",
+    "category": "Component",
+    "tags": ["code", "editor"],
+    "description": "Codemirror Wrapper for Angular"
+  },
+  {
+    "name": "ngx-chartjs",
+    "npm": "ngx-chartjs",
+    "owner": "TypeCtrl",
+    "repo": "ngx-chartjs",
+    "url": "https://ngx-chartjs.netlify.app/",
+    "category": "Component",
+    "tags": ["charts", "chart.js"],
+    "description": "Functional Chart.js wrapper for Angular"
+  },
+  {
+    "name": "ngx-chartjs",
+    "npm": "ngx-chartjs",
+    "owner": "TypeCtrl",
+    "repo": "ngx-chartjs",
+    "url": "https://ngx-chartjs.netlify.app/",
+    "category": "Component",
+    "tags": ["charts", "chart.js"],
+    "description": "Functional Chart.js wrapper for Angular"
+  },
+  {
+    "name": "ngx-rightclick",
+    "npm": "ngx-rightclick",
+    "owner": "TypeCtrl",
+    "repo": "ngx-rightclick",
+    "url": "https://ngx-rightclick.netlify.app/",
+    "category": "Component",
+    "tags": ["rightclick", "contextmenu"],
+    "description": "Context Menu Service for Angular"
+  },
+  {
+    "name": "ngx-droppable",
+    "npm": "ngx-droppable",
+    "owner": "TypeCtrl",
+    "repo": "ngx-droppable",
+    "url": "https://ngx-droppable.netlify.app/",
+    "category": "Component",
+    "tags": ["drop", "file"],
+    "description": "Give file dropping super-powers to any element or component"
+  },
+  {
+    "name": "ngx-context",
+    "npm": "ngx-context",
+    "owner": "ng-turkey",
+    "repo": "ngx-context",
+    "url": "https://github.com/ng-turkey/ngx-context",
+    "category": "Component",
+    "tags": ["context", "binding"],
+    "description": "Angular Context: Easy property binding for router outlet and nested component trees."
   }
 ]
