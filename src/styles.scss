@@ -61,3 +61,31 @@
 .ng-select .ng-select-container {
   min-height: 55.5px !important;
 }
+
+.categories-highlight {
+  div {
+    padding: 0 10px;
+
+    .demo-card {
+      margin-bottom: 20px;
+      cursor: pointer;
+
+      span {
+        padding: 40px 0;
+        font-weight: 500;
+        color: #1976d3;
+      }
+
+      img {
+        height: 100px;
+      }
+
+      &:hover {
+        background: #1976d3;
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -15,36 +15,36 @@ import * as _ from 'lodash';
 
       <div fxLayout="row"
         fxLayout.xs="column"
-        fxFlexFill>
-        <div fxFlex="25" style="padding: 0 10px">
-          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Component')">
+        fxFlexFill class="categories-highlight">
+        <div fxFlex="25">
+          <mdc-card class="demo-card" outlined (click)="onCategoryClick('Component')">
             <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
-              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Components</span>
-              <img  fxFlex="40" height="100px" src="assets/pictures/component.svg">
+              <span fxFlex="60">Components</span>
+              <img  fxFlex="40" src="assets/pictures/component.svg">
             </mdc-ripple>
           </mdc-card>
         </div>
-        <div fxFlex="25" style="padding: 0 10px">
-          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Service Provider')">
+        <div fxFlex="25">
+          <mdc-card class="demo-card" outlined (click)="onCategoryClick('Service Provider')">
             <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
-              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Service Providers</span>
-              <img fxFlex="40" height="100px" src="assets/pictures/service.svg">
+              <span fxFlex="60">Service Providers</span>
+              <img fxFlex="40" src="assets/pictures/service.svg">
             </mdc-ripple>
           </mdc-card>
         </div>
-        <div fxFlex="25" style="padding: 0 10px">
-          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Tool')">
+        <div fxFlex="25">
+          <mdc-card class="demo-card" outlined (click)="onCategoryClick('Tool')">
             <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
-              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Tools</span>
-              <img fxFlex="40" height="100px" src="assets/pictures/tool.svg">
+              <span fxFlex="60">Tools</span>
+              <img fxFlex="40" src="assets/pictures/tool.svg">
             </mdc-ripple>
           </mdc-card>
         </div>
-        <div fxFlex="25" style="padding: 0 10px">
-          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('UI Kit')">
+        <div fxFlex="25">
+          <mdc-card class="demo-card" outlined (click)="onCategoryClick('UI Kit')">
             <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
-              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">UI Kits</span>
-              <img fxFlex="40" height="100px" src="assets/pictures/ui-kit.svg">
+              <span fxFlex="60">UI Kits</span>
+              <img fxFlex="40" src="assets/pictures/ui-kit.svg">
             </mdc-ripple>
           </mdc-card>
         </div>
