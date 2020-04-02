@@ -267,6 +267,14 @@
   - forms
   - validation
   description: The most efficient validation framework for angular applications
+- npm: ng2-meta
+  owner: vinaygopinath
+  repo: ng2-meta
+  url: https://github.com/vinaygopinath/ng2-meta
+  category: Service Provider
+  tags:
+  - meta-tags
+  description: Dynamic meta tags and SEO in Angular2
 - name: ngx-meta
   npm: "@ngx-meta/core"
   owner: fulls1z3
@@ -1087,3 +1095,30 @@
   tags:
   - svg
   description: Angular directive for inserting an SVG file inline within an element.
+- npm: angular-oauth2-oidc
+  owner: manfredsteyer
+  repo: angular-oauth2-oidc
+  url: https://manfredsteyer.github.io/angular-oauth2-oidc/docs/
+  category: Service Provider
+  tags:
+  - oauth
+  - auth
+  - oidc
+  description: Support for OAuth 2 and OpenId Connect (OIDC) in Angular. Already prepared for the upcoming OAuth 2.1.
+- npm: "@manekinekko/angular-web-bluetooth"
+  owner: manekinekko
+  repo: angular-web-bluetooth
+  url: https://angular-web-bluetooth.netlify.com/
+  category: Service Provider
+  tags:
+  - bluetooth
+  description: The missing Web Bluetooth module for Angular
+- npm: ng-lazyload-image
+  owner: tjoskar
+  repo: ng-lazyload-image
+  url: https://naughty-bose-ec1cfc.netlify.com
+  category: Component
+  tags:
+  - img
+  - lazy
+  description: A small library for lazy loading images for Angular apps with zero dependencies
