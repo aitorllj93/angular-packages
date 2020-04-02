@@ -1071,3 +1071,11 @@
   tags:
   - tree
   description: A simple yet powerful tree component for Angular (>=2)
+- npm: videogular2
+  owner: videogular
+  repo: videogular2
+  url: https://videogular.github.io/videogular2/
+  category: Component
+  tags:
+  - video
+  description: The HTML5 video player for Angular 2
