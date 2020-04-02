@@ -1055,3 +1055,11 @@
   - maps
   - google-maps
   description: Angular 2+ components for Google Maps.
+- npm: '@ngrx/notify'
+  owner: ngrx
+  repo: notify
+  url: https://github.com/ngrx/notify
+  category: Service Provider
+  tags:
+  - notification
+  description: Web Notifications Powered by RxJS for Angular
