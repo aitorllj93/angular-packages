@@ -1063,3 +1063,11 @@
   tags:
   - notification
   description: Web Notifications Powered by RxJS for Angular
+- npm: angular-tree-component
+  owner: 500tech
+  repo: angular-tree-component
+  url: https://angular2-tree.readme.io/docs/
+  category: Component
+  tags:
+  - tree
+  description: A simple yet powerful tree component for Angular (>=2)
