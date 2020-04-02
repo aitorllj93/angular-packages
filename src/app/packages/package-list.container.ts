@@ -166,9 +166,10 @@ export class PackageListContainerComponent implements OnInit {
   }
 
   onCategoryClick(category) {
-    this.filterCategories = this.filterCategories.includes(category) ?
-      _.remove(this.filterCategories, filterCategory => filterCategory !== category) :
-      this.filterCategories.concat(category);
+    this.filterCategories = [category];
+    // this.filterCategories = this.filterCategories.includes(category) ?
+    //   _.remove(this.filterCategories, filterCategory => filterCategory !== category) :
+    //   this.filterCategories.concat(category);
 
     this.onFilterChange();
   }
