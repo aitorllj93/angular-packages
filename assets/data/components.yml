@@ -267,6 +267,14 @@
   - forms
   - validation
   description: The most efficient validation framework for angular applications
+- npm: ng2-meta
+  owner: vinaygopinath
+  repo: ng2-meta
+  url: https://github.com/vinaygopinath/ng2-meta
+  category: Service Provider
+  tags:
+  - meta-tags
+  description: Dynamic meta tags and SEO in Angular2
 - name: ngx-meta
   npm: "@ngx-meta/core"
   owner: fulls1z3
@@ -1055,3 +1063,78 @@
   - maps
   - google-maps
   description: Angular 2+ components for Google Maps.
+- npm: '@ngrx/notify'
+  owner: ngrx
+  repo: notify
+  url: https://github.com/ngrx/notify
+  category: Service Provider
+  tags:
+  - notification
+  description: Web Notifications Powered by RxJS for Angular
+- npm: angular-tree-component
+  owner: 500tech
+  repo: angular-tree-component
+  url: https://angular2-tree.readme.io/docs/
+  category: Component
+  tags:
+  - tree
+  description: A simple yet powerful tree component for Angular (>=2)
+- npm: videogular2
+  owner: videogular
+  repo: videogular2
+  url: https://videogular.github.io/videogular2/
+  category: Component
+  tags:
+  - video
+  description: The HTML5 video player for Angular 2
+- npm: ng-inline-svg
+  owner: arkon
+  repo: ng-inline-svg
+  url: https://echeung.me/ng-inline-svg/
+  category: Component
+  tags:
+  - svg
+  description: Angular directive for inserting an SVG file inline within an element.
+- npm: angular-oauth2-oidc
+  owner: manfredsteyer
+  repo: angular-oauth2-oidc
+  url: https://manfredsteyer.github.io/angular-oauth2-oidc/docs/
+  category: Service Provider
+  tags:
+  - oauth
+  - auth
+  - oidc
+  description: Support for OAuth 2 and OpenId Connect (OIDC) in Angular. Already prepared for the upcoming OAuth 2.1.
+- npm: "@manekinekko/angular-web-bluetooth"
+  owner: manekinekko
+  repo: angular-web-bluetooth
+  url: https://angular-web-bluetooth.netlify.com/
+  category: Service Provider
+  tags:
+  - bluetooth
+  description: The missing Web Bluetooth module for Angular
+- npm: ng-lazyload-image
+  owner: tjoskar
+  repo: ng-lazyload-image
+  url: https://naughty-bose-ec1cfc.netlify.com
+  category: Component
+  tags:
+  - img
+  - lazy
+  description: A small library for lazy loading images for Angular apps with zero dependencies
+- npm: angulartics2
+  owner: angulartics
+  repo: angulartics2
+  url: https://angulartics.github.io/angulartics2/
+  category: Service Provider
+  tags:
+  - analytics
+  description: Vendor-agnostic analytics for Angular2 applications.
+- npm: ng-recaptcha
+  owner: DethAriel
+  repo: ng-recaptcha
+  url: https://dethariel.github.io/ng-recaptcha/
+  category: Component
+  tags:
+  - recaptcha
+  description: A simple, configurable, easy-to-start component for handling reCAPTCHA v2 and v3.
