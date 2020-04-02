@@ -1045,5 +1045,13 @@
   tags:
   - context
   - binding
-  description: 'Angular Context: Easy property binding for router outlet and nested
-    component trees.'
+  description: 'Angular Context: Easy property binding for router outlet and nested component trees.'
+- npm: '@agm/core'
+  owner: SebastianM
+  repo: angular-google-maps
+  url: https://angular-maps.com/
+  category: Component
+  tags:
+  - maps
+  - google-maps
+  description: Angular 2+ components for Google Maps.
