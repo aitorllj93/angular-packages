@@ -14,8 +14,45 @@ import * as _ from 'lodash';
     <div class="home-container">
 
       <div fxLayout="row"
-            fxLayout.xs="column"
-            fxFlexFill >
+        fxLayout.xs="column"
+        fxFlexFill>
+        <div fxFlex="25" style="padding: 0 10px">
+          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Component')">
+            <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
+              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Components</span>
+              <img  fxFlex="40" height="100px" src="assets/pictures/component.svg">
+            </mdc-ripple>
+          </mdc-card>
+        </div>
+        <div fxFlex="25" style="padding: 0 10px">
+          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Service Provider')">
+            <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
+              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Service Providers</span>
+              <img fxFlex="40" height="100px" src="assets/pictures/service.svg">
+            </mdc-ripple>
+          </mdc-card>
+        </div>
+        <div fxFlex="25" style="padding: 0 10px">
+          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('Tool')">
+            <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
+              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">Tools</span>
+              <img fxFlex="40" height="100px" src="assets/pictures/tool.svg">
+            </mdc-ripple>
+          </mdc-card>
+        </div>
+        <div fxFlex="25" style="padding: 0 10px">
+          <mdc-card class="demo-card" style="margin-bottom: 20px; cursor: pointer;" outlined (click)="onCategoryClick('UI Kit')">
+            <mdc-ripple class="demo-card-article" fxLayout="row" fxFlexFill>
+              <span fxFlex="60" style="padding: 40px 0; font-weight: 500; color: #1976d3;">UI Kits</span>
+              <img fxFlex="40" height="100px" src="assets/pictures/ui-kit.svg">
+            </mdc-ripple>
+          </mdc-card>
+        </div>
+      </div>
+
+      <div fxLayout="row"
+        fxLayout.xs="column"
+        fxFlexFill >
 
         <div fxFlex="40" style="padding: 0 10px 0 0;">
         <mdc-text-field label="Text" fullwidth
@@ -124,6 +161,14 @@ export class PackageListContainerComponent implements OnInit {
     this.filterTags = this.filterTags.includes(tag) ?
       _.remove(this.filterTags, filterTag => filterTag !== tag) :
       this.filterTags.concat(tag);
+
+    this.onFilterChange();
+  }
+
+  onCategoryClick(category) {
+    this.filterCategories = this.filterCategories.includes(category) ?
+      _.remove(this.filterCategories, filterCategory => filterCategory !== category) :
+      this.filterCategories.concat(category);
 
     this.onFilterChange();
   }
