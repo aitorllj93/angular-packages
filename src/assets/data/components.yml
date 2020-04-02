@@ -1079,3 +1079,11 @@
   tags:
   - video
   description: The HTML5 video player for Angular 2
+- npm: ng-inline-svg
+  owner: arkon
+  repo: ng-inline-svg
+  url: https://echeung.me/ng-inline-svg/
+  category: Component
+  tags:
+  - svg
+  description: Angular directive for inserting an SVG file inline within an element.
