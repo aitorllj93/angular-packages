@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
   template: `
     <mdc-top-app-bar fixed [scrollTarget]="fixedContent">
       <mdc-top-app-bar-row>
-        <mdc-top-app-bar-section style="cursor: pointer;" align="start" title="Angular Packages" [routerLink]="['']">
+        <mdc-top-app-bar-section style="cursor: pointer;" align="start" [routerLink]="['']">
+          <mdc-icon fontSet="mdi" fontIcon="mdi-angular" style="font-size: 40px; color: white;">
+          </mdc-icon>
+          <span class="mdc-top-app-bar__title">
+            Angular Packages
+          </span>
         </mdc-top-app-bar-section>
           <mdc-top-app-bar-section align="end">
             <a href="https://github.com/d3v0ps/angular-packages">
