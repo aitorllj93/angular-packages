@@ -1130,3 +1130,11 @@
   tags:
   - analytics
   description: Vendor-agnostic analytics for Angular2 applications.
+- npm: ng-recaptcha
+  owner: DethAriel
+  repo: ng-recaptcha
+  url: https://dethariel.github.io/ng-recaptcha/
+  category: Component
+  tags:
+  - recaptcha
+  description: A simple, configurable, easy-to-start component for handling reCAPTCHA v2 and v3.
