@@ -1154,3 +1154,10 @@
   tags:
   - sounds
   description: Angular Howler.js wrapper service.
+- npm: ngx-electronjs
+  owner: d3v0ps
+  repo: ngx-electronjs
+  url: https://d3v0ps.github.io/ngx-electronjs/
+  category: Service Provider
+  tags:
+  - electron
