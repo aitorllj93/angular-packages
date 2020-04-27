@@ -1138,3 +1138,19 @@
   tags:
   - recaptcha
   description: A simple, configurable, easy-to-start component for handling reCAPTCHA v2 and v3.
+- npm: ngx-gamepad
+  owner: d3v0ps
+  repo: ngx-gamepad
+  url: https://d3v0ps.github.io/ngx-gamepad/
+  category: Service Provider
+  tags:
+  - gamepad
+  description: Angular gamecontroller.js wrapper service.
+- npm: ngx-sounds
+  owner: d3v0ps
+  repo: ngx-sounds
+  url: https://d3v0ps.github.io/ngx-sounds/
+  category: Service Provider
+  tags:
+  - sounds
+  description: Angular Howler.js wrapper service.
