@@ -574,7 +574,7 @@
   - sorting
   description: Drag, Drop and Sorting Library for Angular6 and beyond!
 - name: angular2-text-mask
-  npm: angular2-text-mask
+  npm: angular2-text-mashttps://k
   owner: text-mask
   repo: text-mask
   url: https://text-mask.github.io/text-mask/
@@ -1170,3 +1170,10 @@
   category: Service Provider
   tags:
   - electron
+- npm: angular-tree-component
+  owner: 500tech
+  repo: angular-tree-component
+  url: https://angular2-tree.readme.io/docs/
+  category: Component
+  tags:
+  - tree
