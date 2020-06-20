@@ -1170,10 +1170,3 @@
   category: Service Provider
   tags:
   - electron
-- npm: angular-tree-component
-  owner: 500tech
-  repo: angular-tree-component
-  url: https://angular2-tree.readme.io/docs/
-  category: Component
-  tags:
-  - tree
