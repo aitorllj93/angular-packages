@@ -7,6 +7,7 @@ import { UIModule } from './ui/ui.module';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { NgxLoadingModule } from 'ngx-loading';
 import { TooltipModule } from '@teamhive/ngx-tooltip';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TooltipModule } from '@teamhive/ngx-tooltip';
     UIModule,
     TooltipModule.forRoot({}),
     NgxLoadingModule.forRoot({}),
+    MarkdownModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

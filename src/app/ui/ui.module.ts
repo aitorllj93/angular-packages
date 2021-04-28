@@ -14,6 +14,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TooltipModule } from '@teamhive/ngx-tooltip';
+import { MarkdownModule } from 'ngx-markdown';
 
 
 
@@ -32,7 +33,8 @@ import { TooltipModule } from '@teamhive/ngx-tooltip';
     MdcTextFieldModule,
     NgxLoadingModule,
     NgSelectModule,
-    TooltipModule
+    TooltipModule,
+    MarkdownModule
   ]
 })
 export class UIModule {}

@@ -57,7 +57,7 @@ export class PackageService {
 
   fetchReadme(pkg: Package) {
     return this.http.get<string>(
-      `https://get-github-readme-v2.now.sh/${pkg.owner}/${pkg.repo}?branch=master`,
+      `https://raw.githubusercontent.com/${pkg.owner}/${pkg.repo}/master/README.md`,
       {
         responseType: 'text' as 'json'
       }

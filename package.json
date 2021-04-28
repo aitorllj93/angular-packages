@@ -29,6 +29,8 @@
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "ngx-loading": "^8.0.0",
+    "ngx-markdown": "^11.1.3",
+    "prism-themes": "^1.6.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

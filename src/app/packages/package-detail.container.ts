@@ -18,7 +18,9 @@ import { Package } from './package.model';
         </mdc-ripple>
       </mdc-card>
       <app-npm-detail *ngIf="npm$ | async as npm" [info]="npm"></app-npm-detail>
-      <div class="markdown-body" [innerHtml]="readme$ | async"></div>
+      <div class="markdown-body">
+        <markdown [data]="readme$ | async" lineNumbers [start]="5"></markdown>
+      </div>
     </div>
   `
 })
