@@ -1170,3 +1170,12 @@
   category: Service Provider
   tags:
   - electron
+  description: Angular Electron.js wrapper service.
+- npm: ngx-markdown
+  owner: jfcere
+  repo: ngx-markdown
+  url: https://jfcere.github.io/ngx-markdown/
+  category: Component
+  tags:
+  - markdown
+  description: Display markdown content inside your Angular applications.
